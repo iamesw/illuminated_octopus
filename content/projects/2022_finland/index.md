@@ -6,7 +6,6 @@ date: 2022-04
 tags:
   - photography
   - travel
-
 ---
 
 <div class="container">

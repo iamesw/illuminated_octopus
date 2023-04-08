@@ -3,20 +3,10 @@
 	src: url(public/css/fonts/PublicSans[wght].tff) format(tff);
 }
 
-@font-face {
-	font-family: "Plex Mono";
-	src: url(public/css/fonts/IBMPlexMono-Regular.woff) format(woff);
-}
-
-@font-face {
-	font-family: "Oswald";
-	src: url(public/css/fonts/Oswald-VariableFont_wght.ttf) format(ttf);
-}
-
 /* Defaults */
 :root {
 	--font-family: "Public Sans", -apple-system, system-ui, sans-serif;
-	--font-family-monospace: "Plex Mono", Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
