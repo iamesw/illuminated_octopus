@@ -6,6 +6,6 @@ module.exports = {
 	"author": {
 		"name": "James Williams",
 		"email": "willija@mac.com",
-		"url": "https://wooster301.com"
+		"url": "https://io.wooster301.com"
 	}
 }
