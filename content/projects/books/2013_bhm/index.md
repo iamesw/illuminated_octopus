@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: Dawoud Bey
 description: Catalog for photography exhibition commemorating victims of the 1963 16th St Baptist Church Bombing
-date: 2018-04-18
+date: 2013-09-15
 tags:
   - graphic design
   - catalog
