@@ -22,83 +22,85 @@ tags:
 				{%- endfor %}
 			</ul>
 			<hr>
-			<p>Finland in August. I don't think there's a real theme with these photos. Some abstract views, some documentarian, more tourist oriented. This batch might need revisiting for sorting.</p>
+			<p>Finland in August. I don't think there's a real theme with these photos. Some abstract views, some documentarian, more tourist oriented. Not in any particular order.</p>
 			<hr>
 			<ul class="post-metadata">
-				<li>Camera: Fujifilm X-Pro 2, iPhone 12 Mini</li>
-				<li>Note: Page is work in progress<li>
+			<li>Camera: Fujifilm X-Pro 2, iPhone 12 Mini</li>
 			<ul>
 		</div>
 		<div class="col-12 col-1-md col-1-lg"></div>
-		   <div class="col">
+			<div class="col">
 			{% image "./images/finland_2022_12.jpg", "" %}
-		<figcaption>National Memorial to the Winter War - Helsinki </br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/8000 s</figcaption>
+			<figcaption>National Memorial to the Winter War - Helsinki 
+			</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/8000 s</figcaption>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_2.jpg", "" %}
-		<figcaption>Helsinki Airport </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 400 - ƒ3.6 - 1/150 s</figcaption>
+		<figcaption>Helsinki Airport 
+		</br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 400 - ƒ3.6 - 1/150 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_3.jpg", "" %}
-		<figcaption>Suomenlinnan Panimo - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/300 s</figcaption>
+		<figcaption>Suomenlinnan Panimo - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/300 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_6.jpg", "" %}
-		<figcaption>Suomenlinna - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ8 - 1/200 s</figcaption>
+		<figcaption>Suomenlinna - Helsinki
+		</br>Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ8 - 1/200 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_4.jpg", "" %}
-		<figcaption>Suomenlinna - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ8 - 1/350 s</figcaption>
+		<figcaption>Suomenlinna - Helsinki
+		</br>Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ8 - 1/350 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_5.jpg", "" %}
-		<figcaption>Suomenlinna - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/680 s</figcaption>
+		<figcaption>Suomenlinna - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/680 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_7.jpg", "" %}
-		<figcaption>Suomenlinna - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/1400 s</figcaption>
+		<figcaption>Suomenlinna - Helsinki
+		</br>Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 200 - ƒ5.6 - 1/1400 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_23.jpg", "" %}
-		<figcaption>Gargoyles on the Pohjola Insurance Building - Helsinki </br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ2 - 1/300 s</figcaption>
+		<figcaption>Gargoyles on the Pohjola Insurance Building - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ2 - 1/300 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_8.jpg", "" %}
-		<figcaption>Door - Helsinki </br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 1250 - ƒ8 - 1/60 s</figcaption>
+		<figcaption>Door - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 35mm F1.4 R </br> ISO 1250 - ƒ8 - 1/60 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col">
 		{% image "./images/finland_2022_10.jpg", "" %}
-		<figcaption>National Library of Finland - Helsinki </br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ2.8 - 1/450 s</figcaption>
+		<figcaption>National Library of Finland - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ2.8 - 1/450 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_19.jpg", "" %}
-		<figcaption>Oodi Cental Library - Helsinki </br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/1800 s</figcaption>
+		<figcaption>Oodi Cental Library - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/1800 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_16.jpg", "" %}
-		<figcaption>Kamppi Chapel of Silence - Helsinki </br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/1400 s</figcaption>
+		<figcaption>Kamppi Chapel of Silence - Helsinki
+		</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ4 - 1/1400 s</figcaption>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_9.jpg", "" %}
 		<figcaption>Helsinki Cathedral
@@ -109,7 +111,6 @@ tags:
 		<figcaption>National Library of Finland, Helsinki
 		</br> Fujifilm X-Pro 2 - XF 18mm F2 R </br> ISO 200 - ƒ2.8 - 1/90 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col">
@@ -158,68 +159,85 @@ tags:
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_31.jpg", "" %}
-		<figcaption>Sibelius Monument, Helsinki - X-Pro 2</figcaption>
+		<figcaption>Sibelius Monument, Helsinki
+		</br>Fujifilm X-Pro 2 - XF 27mm F2.8 R</br>ISO 400 - ƒ5.6 - 1/420 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_15.jpg", "" %}
-		<figcaption>Design District Helsinki - X-Pro 2</figcaption>
+		<figcaption>Design District Helsinki
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 200 - ƒ8 - 1/170 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_22.jpg", "" %}
-		<figcaption>Central Railway Station - X-Pro 2</figcaption>
+		<figcaption>Central Railway Station
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 200 - ƒ8 - 1/450 s</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
+		<div class="col">
+		{% image "./images/finland_2022_35.jpg", "" %}
+		<figcaption>Imatran Valtionhotelli
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 400 - ƒ2.8 - 1/90 s</figcaption>
+		</div>
+		<div class="col">
+		{% image "./images/finland_2022_34.jpg", "" %}
+		<figcaption>Imatran Valtionhotelli
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 400 - ƒ8 - 1/800 s</figcaption>
+		</div>
+		<div class="col">
+		{% image "./images/finland_2022_37.jpg", "" %}
+		<figcaption>Rauha - Savonlinna
+		</br>Fujifilm X-Pro 2 - XF 35mm F1.4 R</br>ISO 400 - ƒ2.8 - 1/3500 s</figcaption>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col">
 		{% image "./images/finland_2022_20.jpg", "" %}
-		<figcaption>Temppeliaukio Church - X-Pro 2</figcaption>
+		<figcaption>Temppeliaukio Church
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 200 - ƒ2.8 - 1/600 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_25.jpg", "" %}
-		<figcaption>Porvoon Tuomiokirkko - X-Pro 2</figcaption>
-		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
+		<figcaption>Porvoon Tuomiokirkko
+		</br>Fujifilm X-Pro 2 - XF 27mm F2.8 R</br>ISO 200 - ƒ5.6 - 1/640 s</figcaption>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
+		<div class="col">
+		{% image "./images/finland_2022_41.jpg", "" %}
+		<figcaption>Kerimaki
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 400 - ƒ8 - 1/900 s</figcaption>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col">
 		{% image "./images/finland_2022_26.jpg", "" %}
-		<figcaption>Porvoon Tuomiokirkko - X-Pro 2</figcaption>
+		<figcaption>Porvoon Tuomiokirkko
+		</br>Fujifilm X-Pro 2 - XF 27mm F2.8 R</br>ISO 400 - ƒ5.6 - 1/900 s</figcaption>
+		</div>
+		<div class="col">
+		{% image "./images/finland_2022_43.jpg", "" %}
+		<figcaption>Kuopio Cathedral
+		</br>Fujifilm X-Pro 2 - XF 18mm F2 R</br>ISO 400 - ƒ2 - 1/8500 s</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_27.jpg", "" %}
-		<figcaption>Porvoon Tuomiokirkko - X-Pro 2</figcaption>
+		<figcaption>Porvoon Tuomiokirkko
+		</br>Fujifilm X-Pro 2 - XF 27mm F2.8 R</br>ISO 400 - ƒ5.6 - 1/1000 s</figcaption>
 		</div>
-		<div class="col">
-		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">	
-		{% image "./images/finland_2022_28.jpg", "" %}
+		{% image "./images/finland_2022_30.jpg", "" %}
 		<figcaption>Regatta Cafe, Helsinki - X-Pro 2</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_29.jpg", "" %}
-		<figcaption>Regatta Cafe, Helsinki - X-Pro 2</figcaption>
-		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
-	</div>
-	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
-		<div class="col">
-		{% image "./images/finland_2022_30.jpg", "" %}
 		<figcaption>Regatta Cafe, Helsinki - X-Pro 2</figcaption>
 		</div>
 		<div class="col-12 col-12-md col-1-lg"></div>
@@ -237,32 +255,10 @@ tags:
 		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
-		<div class="col">
-		{% image "./images/finland_2022_35.jpg", "" %}
-		<figcaption>Imatran Valtionhotelli - X-Pro 2</figcaption>
-		</div>
-		<div class="col">
-		{% image "./images/finland_2022_34.jpg", "" %}
-		<figcaption>Imatran Valtionhotelli - X-Pro 2</figcaption>
-		</div>
-		<div class="col">
-		{% image "./images/finland_2022_37.jpg", "" %}
-		<figcaption>Rauha - Savonlinna - X-Pro 2</figcaption>
-		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
-	</div>
-	<div class="row">
-		<div class="col-12 col-12-md col-1-lg"></div>
-		<div class="col">
-		{% image "./images/finland_2022_41.jpg", "" %}
-		<figcaption>Kerimaki - X-Pro 2</figcaption>
-		</div>
 		<div class="col">
 		{% image "./images/finland_2022_42.jpg", "" %}
 		<figcaption>Olavinlinna, Savonlinna - X-Pro 2</figcaption>
 		</div>
-		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col-12 col-12-md col-1-lg"></div>
@@ -336,15 +332,13 @@ tags:
 		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_56.jpg", "" %}
-		<figcaption>Kumpuranta, South Savo - iPhone 12 Mini</figcaption>
+		<figcaption>Kumpuranta, South Savo
+		</br>iPhone 12 Mini</figcaption>
 		</div>
 		<div class="col">
 		{% image "./images/finland_2022_57.jpg", "" %}
-		<figcaption>Kauppa-Halli, Kuopio - iPhone 12 Mini</figcaption>
-		</div>
-		<div class="col">
-		{% image "./images/finland_2022_43.jpg", "" %}
-		<figcaption>Kuopio Cathedral - X-Pro 2</figcaption>
+		<figcaption>Kauppa-Halli, Kuopio
+		</br>iPhone 12 Mini</figcaption>
 		</div>
 		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
@@ -352,7 +346,8 @@ tags:
 		<div class="col-12 col-12-md col-1-lg"></div>
 		<div class="col">
 		{% image "./images/finland_2022_59.jpg", "" %}
-		<figcaption>Kolkonjärvi, Härkälä, South Savo - iPhone 12 Mini</figcaption>
+		<figcaption>Kolkonjärvi, Härkälä, South Savo
+		</br>iPhone 12 Mini</figcaption>
 		</div>
 		<div class="col-12 col-12-md col-1-lg"></div>
 	</div>
