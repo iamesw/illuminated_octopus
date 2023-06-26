@@ -1,5 +1,8 @@
 ---
 layout: layouts/base.njk
+eleventyNavigation:
+  key: Books, Editorial, etc
+  parent: Design
 ---
 
 <div class="container">

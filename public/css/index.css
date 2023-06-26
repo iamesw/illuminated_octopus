@@ -1,18 +1,23 @@
 @font-face {
 	font-family: "Public Sans";
-	src: url(public/css/fonts/PublicSans[wght].tff) format(tff);
+	src: url(/public/css/fonts/PublicSans[wght].ttf) format(ttf);
+}
+@font-face {	
+	font-family: "Plex Mono";
+	src: url(/public/css/fonts/IBMPlexMono-Regular.ttf) format(ttf);
 }
 
 /* Defaults */
 :root {
 	--font-family: "Public Sans", -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-monospace: "Plex Mono", Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
 :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
+	--color-gray-80: #505050;
 	--color-gray-90: #333;
 
 	--background-color: #e5e5e5;
@@ -137,9 +142,11 @@ li {
 a[href] {
 	color: var(--text-color-link);
 }
+
 a[href]:visited {
 	color: var(--text-color-link-visited);
 }
+
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
@@ -177,11 +184,11 @@ figcaption {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-50);
+	border-bottom: 1px dashed var(--color-gray-80);
 }
 
 footer {
-	border-top: 1px dashed var(--color-gray-50);
+	border-top: 1px dashed var(--color-gray-80);
 	padding: 1rem;
 	font-family: var(--font-family-monospace);
 	font-size: .75rem;
@@ -267,15 +274,22 @@ header {
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
+
 .nav a[href][aria-current="page"] {
-	text-decoration: underline;
+	text-decoration: none;
+	color:	var(--text-color-link-active);
+}
+
+.active-breadcrumb {
+	text-decoration: none;
+	color:	var(--text-color-link-active);
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px dashed var(--color-gray-50);
+    border-top: 1px dashed var(--color-gray-80);
     margin: 1em 0;
     padding: 0;
 }

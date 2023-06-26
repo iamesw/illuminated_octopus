@@ -6,9 +6,24 @@ date: 2023-05
 tags:
   - photography
   - travel
+eleventyNavigation:
+  key: Detroit
+  parent: Photography
 ---
 
 <div class="container">
+	<div class="row">
+		<div class="col">
+			{% set navPages = collections.all | eleventyNavigationBreadcrumb("Detroit", includeSelf= true) %}
+			<ul class="post-metadata">
+			{%- for entry in navPages %}
+				<li{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}>
+    			 » <a href="{{ entry.url }}">{{ entry.title }}</a>
+  				</li>
+			{%- endfor %}
+			</ul>
+		<div class="col">
+	</div>
 	<div class="row">
 		<div class="col-12 col-12-md col-4-lg">
 			<h1>{{ title }}</h1>
