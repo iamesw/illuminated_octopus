@@ -1,0 +1,53 @@
+  <div class="row">
+  		<div class="col-12 col-4-md col-4-lg">
+        <h1>Design Index</h1>
+      </div>
+      <div class="col">
+        <a href=/design/books>{%image "./icons/books.png", "icon of an open book" %}</a>
+        <figcaption>Books, editorial, etc</figcaption>
+      </div>
+      <div class="col">
+        <a href=/design/posters>{%image "./icons/exhibition.png", "icon of a framed piece of art" %}</a>  
+        <figcaption>Exhibitions Related</figcaption>
+      </div>
+      <div class="col">
+        <a href=/design/posters>{%image "./icons/posters.png", "icon of a poster" %}</a>  
+        <figcaption>Posters, marketing, etc</figcaption>
+      </div>
+      <div class="col">
+        <a href=/design/branding>{%image "./icons/logos.png", "icon of a circle" %}</a>  
+        <figcaption>Logos, Branding, etc</figcaption>
+      </div>
+      <div class="col">
+        <a href=/design/ephemera>{%image "./icons/ephemera.png", "icon of a postcard" %}</a>
+        <figcaption>Ephemera and Such</figcaption>
+      </div>
+    </div>
+
+
+
+    const path = require("path");
+const eleventyImage = require("@11ty/eleventy-img");
+
+module.exports = eleventyConfig => {
+	function relativeToInputPath(inputPath, relativeFilePath) {
+		let split = inputPath.split("/");
+		split.pop();
+
+		return path.resolve(split.join(path.sep), relativeFilePath);
+	}
+
+
+<div class="row">
+  <div class="col">
+  {% set navPages = collections.all | eleventyNavigationBreadcrumb("An Epic of Earth and Water") %}
+  <ul class="post-breadcrumb">
+  {%- for entry in navPages %}
+    <li{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}>
+      » <a href="{{ entry.url }}">{{ entry.title }}</a>
+      </li>
+  {%- endfor %}
+  <li><active-breadcrumb>» {{ title }}</active-breadcrumb></li>
+  </ul>
+  </div>
+</div>

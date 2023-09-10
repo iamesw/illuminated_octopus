@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: About
-  order: 3
+  order: 4
 ---
 
 <div class="container">
@@ -11,7 +11,7 @@ eleventyNavigation:
       <h1>I am James Williams, </br> a designer</h1>
       <p>Illuminated Octopus is my archive and portfolio.</p>
       <hr>
-      <figcaption>Built with <a href=https://www.11ty.dev>11ty</a> and hosted on <a href=https://www.netlify.com>Netlify</a>. Typeset in <a href=https://public-sans.digital.gov>Public Sans</a> and your browser's default monospaced font. Largely hand coded in <a href=https://code.visualstudio.com>Visual Studio Code</a>. Images processed with <a href=https://www.realmacsoftware.com/squash>Squash</a>.</figcaption>
+      <figcaption>Built with <a href=https://www.11ty.dev>11ty</a> and hosted on <a href=https://www.netlify.com>Netlify</a>. Typeset in <a href=https://public-sans.digital.gov>Public Sans</a> and your browser's default monospaced font. Grid code from <a href=https://jenil.github.io/chota/>Chota</a>. Largely hand coded in <a href=https://code.visualstudio.com>Visual Studio Code</a>. Images processed with <a href=https://www.realmacsoftware.com/squash>Squash</a>. Occasional coding help with <a href=https://openai.com/blog/chatgpt>ChatGPT</a>.</figcaption>
       <hr>
     </div>
     <div class="col">

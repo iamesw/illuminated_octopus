@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+title: WALLCEILINGFLOOR – Works by William Anastazi, Donald Judd, and Fred Sandback
+description: Gallery Guide for exhibition of minimal and conceptual art
+date: 2007-01-28
+tags:
+  - graphic design
+  - exhibition
+  - gallery guide
+eleventyNavigation:
+  key: wcf-gg
+  parent: Books + Editorial + Ephemera
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+  		{% set navPages = collections.all | eleventyNavigationBreadcrumb("wcf-gg") %}
+	  	<ul class="post-breadcrumb">
+		      {%- for entry in navPages %}
+			  <li{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}> » <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  			  {%- endfor %}
+	    	<li><active-breadcrumb>» {{ title }}</active-breadcrumb></li>
+			</ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row"></div>
+
+	<div class="row">
+		<div class="col">
+			<h1>{{ title }}</h1>
+			<hr>
+			<figcaption>2007 | Birmingham Museum of Art</figcaption>
+			<figcaption>Gallery Guide</br>6 panel / tri-fold</br>Typeset in Univers</figcaption>
+			<hr>
+		    	<p><em>WALLCEILINGFLOOR</em> presented work by three important figures in minimal and conceptual art.</p>
+		</div>
+        <div class="col-12 col-12-md col-1-lg"></div>
+		<div class="col">
+			{%_image "wallceilingfloor_1.jpg", "cover with sculpture" %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col"></div>
+		<div class="col-12 col-12-md col-9-lg">
+            {%_image "wallceilingfloor_2.jpg", "brochure layout" %}
+        </div>
+	</div>
+	<div class="row">
+		<div class="col">
+		    {%_image "wallceilingfloor_3.jpg", "brochure layout" %}
+		</div>
+  	</div>
+</div>

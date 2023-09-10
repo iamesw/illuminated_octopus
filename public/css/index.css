@@ -128,10 +128,16 @@ container {max-width: var(--grid-maxWidth); margin: 0 auto; width: 96%; padding:
 }
 /* end Chota grid */
 
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+}
+
+
 p:last-child { 
 	margin-bottom: 0;
 }
 p {
+	font-size: .85em;
 	line-height: 1.5;
 }
 
@@ -166,13 +172,39 @@ img {
 	border-style: none;
 }
 
-figure {
+/*
+a img{
+	opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+a img:hover{
+	opacity: .5;
+}
+*/
+
+a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+a img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+picture, figure {
 	height:auto;
 	max-width: 100%;
 	display: block;
 	border-style: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 figcaption {
@@ -280,7 +312,7 @@ header {
 	color:	var(--text-color-link-active);
 }
 
-.active-breadcrumb {
+active-breadcrumb {
 	text-decoration: none;
 	color:	var(--text-color-link-active);
 }
@@ -360,6 +392,18 @@ hr {
 	margin: 0;
 }
 
+.post-breadcrumb {
+	font-family: var(--font-family-monospace);
+	font-size: .75rem;
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
 time {
 	font-family: var(--font-family-monospace);
 }
@@ -388,3 +432,6 @@ h2 + .header-anchor {
 	font-size: 1.5em;
 }
 
+center{
+	align-items: center;
+}
