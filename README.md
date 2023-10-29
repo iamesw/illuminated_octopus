@@ -1,4 +1,4 @@
-# illuminated ocotups v8
+# illuminated octopus v8
 
 A personal archive website repository built with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 beta release](https://www.11ty.dev/blog/eleventy-v2-beta/)).
 
