@@ -20,12 +20,16 @@ eleventyNavigation:
 <hr>
   <div class="row">
     <div class="col">
-      <h2 id="photography">Photography</h2>
+      <a href=/art/photography><h2 id="photography">Photography</h2></a>
       <p>Travel and otherwise. Daily snaps. Mostly black and white. Many with various models of iPhone. Some with Fujifilm X100. More recently shooting with a Fujifilm X-Pro 2.</P>
     </div> 
   </div>
   <hr>
 {% include "partials/photo_travel.njk" %}
+  <hr>
+{% include "partials/photo_utility.njk" %}
+  <hr>
+{% include "partials/photo_industry.njk" %}
   <hr>
   <div class="row"><div class="col">{% include "partials/art_anchors.njk" %}<hr></div></div>
   <div class="row">
