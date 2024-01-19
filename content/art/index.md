@@ -6,11 +6,12 @@ eleventyNavigation:
 ---
 
 <div class="container">
+<div class="row"></div>
   <div class="row">  
     <div class="col">
       <h1 class="visually-hidden">Art + Photography</h1>
       <ul class="post-metadata">
-        <li><active-breadcrumb>» Art + Photography »</active-breadcrumb></li>
+        <li><active-breadcrumb>» Art + Photography /</active-breadcrumb></li>
         <li><a href="#photography">Photography</a></li> / 
         <li><a href="#paintings">Paintings</a></li> / 
         <li><a href="#prints">Prints</a></li>

@@ -1,22 +1,26 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: About
+  key: James Williams
   order: 4
 ---
 
 <div class="container">
+<div class="row"></div>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
       <h1>I am James Williams, </br> a designer</h1>
       <p>Illuminated Octopus is my archive and portfolio.</p>
       <hr>
       <figcaption>Built with <a href=https://www.11ty.dev>11ty</a> and hosted on <a href=https://www.netlify.com>Netlify</a>. Typeset in <a href=https://public-sans.digital.gov>Public Sans</a> and your browser's default monospaced font. Grid code from <a href=https://jenil.github.io/chota/>Chota</a>. Largely hand coded in <a href=https://code.visualstudio.com>Visual Studio Code</a>. Images processed with <a href=https://www.realmacsoftware.com/squash>Squash</a>. Occasional coding help with <a href=https://openai.com/blog/chatgpt>ChatGPT</a>.</figcaption>
       <hr>
     </div>
+    <div class="col"></div>
     <div class="col">
       <p>I design things, photograph things, occasionally print or paint things. The photographs, prints, and paintings are typically of inanimate objects or places. Rarely people, but more often of late a dog, cats, and chickens. But mostly things like parking structures, doors, manhole covers, and other things discovered walking old and new places.</P> 
       <p>I am currently the Director of Design and Technology at the Birmingham Museum of Art.</p> 
+    </div>
+    <div class="col">
       <p>As a child I could be found drawing or playing with Legos. Not surprisingly, being a bright kid, I was tracked into advanced math and science classes in middle school, coinciding with my last art class for some time. Fortunately, in my last semester of high school I took a photography class to fill an unexpected gap in my schedule. I proved to have a natural aptitude for composition and a long standing hobby was born.</P>
       <p>Fast forward less than a year and I was a disgruntled engineering major. Though I loved math and science, well, at least the science part, I found that honors physics and calculus III were not the way I wanted to spend my professional life. A deep inspection of the course handbook returned a number of classes offered in photography, or at least tangentially related to photography. And those tangentially related to photography were in the visual communications curriculum.</p>
       <p>Finding the 40th anniversary edition of <em>Communication Arts</em> in the university bookstore sealed my fate. It reminded me of the interests I had as a child, defining them actually. By the next semester I was a graphic design major. Since then I've enjoyed a career ranging from small agency work through the non-profit arts sector.</p>
@@ -24,16 +28,18 @@ eleventyNavigation:
   </div>
   <hr>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
         <h2>Experience</h2>
     </div>
     <div class="col">
       <p>Designer with 20 years of experience in graphic design, art direction, and creative direction, primarily in the museum sector.</p>
     </div>
+    <div class="col"></div>
+    <div class="col"></div>
   </div>
   <hr>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
       <p><strong>Birmingham Museum of Art</strong></br>Birmingham, Alabama</p>
       <figcaption>Director of Design and Technology</br>2021 – present</figcaption>
 	    <figcaption>Design Director</br>2019 – 2021</figcaption>
@@ -45,10 +51,14 @@ eleventyNavigation:
 	    <p>Managed the Exhibition Designer until his retirement in 2019, assuming his duties when funding for the position was frozen during the pandemic. Improved and digitized the exhibition design process, deepened collaboration across departments, and worked with the lead preparator to improve back of house operations related to exhibition design and installation processes.</p>
     	<p>Enhanced the integration of didactic materials, designing exhibition materials for more than 100 exhibitions. Deepened the integration between exhibition layouts and didactic materials, working with exhibition designer, and collaborating with curators, and education department to convey themes of exhibitions more cohesively. Created branding for internal exhibitions or extended the existing branding of traveling exhibitions, creating a bridge from marketing materials through the experience of the exhibition materials in gallery.</p>
 	    <p>Conceptualized, designed, or art directed more than a dozen books and exhibition catalogs. Topics and themes ranged from single-artist contemporary catalogs, focused artist surveys, large group exhibitions, collection handbooks, to single donor catalogs. Collaborated with single authors, artists, and multiple author contributors. Managed book design and production process from concept through layout, prepress, color proofing, and printing; publishing and printing locally, with university presses, and international publishers.</p>
+    </div>
+    <div class="col">
     	<p>Designed more than 50 quarterly issues of the museum member magazine, refining the aesthetic to meet museum standards, implementing 6 major redesigns, and a transition to digital-only publication. Worked with multiple editors, collaborating on redesigns to meet shifting demands, and also coordinating between curatorial and education departments on content.</p>
 	    <p>Collaborated with a cross-departmental digital media team, contributing to the underlying strategy for the smartguide, a mobile web application for use in-gallery. Continued that strategy by extending the platform as smartguide+ to power in-gallery interactive stations ranging from iPads to large screen touch monitors. Built multiple in-gallery interactives in collaboration with digital media team, exhibition curators, and education staff to enhance the understanding of exhibition themes and provide social and historical context in engaging ways.</p>
 	    <p>Presented the development process and success of the smartguide at MCN 2017 session, <em>Cheap and Replicable: Building a New System for Digital Engagement in Small to Mid-Size Museums,</em> and co-authored post conference case-study published in the proceedings of COMPASS Conference 2018 highlighting the design choices of the smartguide.</p>
 	    <p>In 2021, was promoted to museum leadership based on long-term strategic thinking. Served as Key Result Area manager during strategic planning process, leading a team of 6 to develop key outcomes to optimize the digital resources and engagement of the museum for the next 3-5 years.
+    </div>
+    <div class="col">
 	    <p>Facing an aging and uneditable website during an economic downturn, and thus a budget crunch, conceptualized, developed, and launched a new museum website with a 3 person team. Continued to provide insight and feedback over new iterations and content management systems. Advanced the initiative to implement an online collection database as part of an open access initiative.</p>
 	    <p>Liaised with external agency on development of new brand identity for the museum. Receiving basic logo and usage guides, established brand standards across print and digital media. Extended the brand across outdoor signage and banners. Developed and designed large scale signage installation at the Birmingham-Shuttlesworth International Airport.</p>
 	    <p>Collaborated with Director of PR and Marketing on advertising campaigns, co-copywriting and designing multiple award winning marketing campaigns for exhibitions. Rebranded existing Art on the Rocks program, enlivening a popular but flagging program, elevating the aesthetic to match the maturation of the event.</p>
@@ -58,48 +68,52 @@ eleventyNavigation:
   </div>
   <hr>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
       <p><strong>Design Week Birmingham</strong></br>Birmingham, Alabama</p>
       <figcaption>Planning Committee Member</br>2013 · 2014 · 2015</figcaption>
     </div>
     <div class="col">
       <p>Served on the planning committee that established the first design festival in Birmingham. Contributed to the scope of the event. Coordinated and spearheaded the development and implementation of Design Week Birmingham events at the Birmingham Museum of Art.</p>
     </div>
+    <div class="col"></div>
+    <div class="col"></div>
   </div>
   <hr>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+      <div class="col">
       <p><strong>CrownGraphics / TrueBlue</strong></br>Chattanooga, Tennessee</p>
       <figcaption>Graphic Designer / Art Director</br>2004 – 2006</figcaption>
     </div>
     <div class="col">
       <p>Worked in a small design team to produce  collateral material, advertising, and branding for market segments as diverse as accounting, higher education, and trucking.</p>
     </div>
+    <div class="col"></div>
+    <div class="col"></div>
   </div>
   <hr>
-  <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+  <div class="row">    
+    <div class="col">
       <p><strong>The BLR Agency</strong></br>Birmingham, Alabama</p>
       <figcaption>Graphic Designer / Art Director</br>2003 – 2004</figcaption>
     </div>
     <div class="col">
       <p>Maintained brand standards in marketing campaign, conceptualized logo and brand materials, and designed print collateral for clients in healthcare, pesticides, and fast food.</p>
     </div>
+    <div class="col"></div>
+    <div class="col"></div>
   </div>
   <hr>
   <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
       <h2>Education</h2>
     </div>
-    <div class="col"></div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-12-md col-3-lg">
+    <div class="col">
       <p><strong>Auburn University</strong></br>Auburn, Alabama<p>
      <figcaption>2002</figcaption>
     </div>
     <div class="col">
       <p>Bachelor of Fine Arts, Graphic Design</br>Magna Cum Laude</p>
     </div>
+    <div class="col"></div>
   </div>
 </div>
