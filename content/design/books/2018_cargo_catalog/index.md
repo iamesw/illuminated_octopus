@@ -24,8 +24,6 @@ eleventyNavigation:
 			</ul>
     </div>
   </div>
-  <hr>
-  <div class="row"></div>
 	<div class="row">
 		<div class="col">
 			<h1>{{ title }}</h1>

@@ -24,7 +24,7 @@
 
 	--text-color: var(--color-gray-20);
 	--text-color-link: #e0e0e0;
-	--text-color-link-active: #ff7300;
+	--text-color-link-active: rgb(255, 115, 0);
 	--text-color-link-visited: #e0e0e0;
 
 	--syntax-tab-size: 2;
@@ -113,10 +113,16 @@ body {
 }
 /* end Chota grid */
 
+/* vertical spacer */
+.spacer {height: 3rem;}
+.spacer-sm {height: auto;} @media screen and (min-width: 600px) {.spacer-sm {height: 6rem;}} @media screen and (min-width: 1200px) {.spacer-sm {height: 12rem;}}
+.spacer-md {height: auto;} @media screen and (min-width: 600px) {.spacer-md {height: 12rem;}} @media screen and (min-width: 1200px) {.spacer-md {height: 18rem;}}
+.spacer-lg {height: auto;} @media screen and (min-width: 600px) {.spacer-lg {height: 18rem;}} @media screen and (min-width: 1200px) {.spacer-lg {height: 24rem;}}
+/* end spacer */
+
 h1, h2, h3, h4, h5, h6 {
 	font-size: 1em;
 }
-
 
 p:last-child { 
 	margin-bottom: 0;
@@ -368,8 +374,9 @@ a[href].header-anchor:visited {
 }
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
+
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
 	color: #aaa;
@@ -381,6 +388,7 @@ h2 + .header-anchor {
 
 center{
 	align-items: center;
+	background-color: #e0e0e0;
 }
 
 
@@ -453,5 +461,7 @@ picture, figure {
 		animation: 30s slidy infinite; 
 	}
 	div#slider figure img { width: 20%; float: left; }
-	
-	
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 , footer a, header a {
+	text-decoration: none;
+}

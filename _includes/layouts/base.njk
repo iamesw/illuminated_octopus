@@ -12,14 +12,14 @@
 		<style>{% getBundle "css" %}</style>
 	</head>
 	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
+		<a href="#skip" class="visually-hidden" id="top">Skip to main content</a>
 		<header>
-			<a href="/" class="home-link" id="top">{{ metadata.title }}</a>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
+					<li class="nav-item"><a href="/" >{{ metadata.title }}</a></li>
 				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item">/ <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					<li class="nav-item"> / <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
 				</ul>
 			</nav>
@@ -28,7 +28,7 @@
 			{{ content | safe }}
 		</main>
 		<footer>
-			©2023 James Williams
+			©2023 <a href="/about/">James Williams</a>     |     <a href="#top">Return to Top</a>
 		</footer>
 	</body>
 </html>

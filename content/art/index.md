@@ -21,7 +21,7 @@ eleventyNavigation:
 <hr>
   <div class="row">
     <div class="col">
-      <a href=/art/photography><h2 id="photography">Photography</h2></a>
+      <h2 id="photography"><a href=/art/photography>Photography</a> »</h2>
       <p>Travel and otherwise. Daily snaps. Mostly black and white. Many with various models of iPhone. Some with Fujifilm X100. More recently shooting with a Fujifilm X-Pro 2.</P>
     </div> 
   </div>
@@ -30,7 +30,7 @@ eleventyNavigation:
   <hr>
 {% include "partials/photo_utility.njk" %}
   <hr>
-{% include "partials/photo_industry.njk" %}
+{% include "partials/photo_thematic.njk" %}
   <hr>
   <div class="row"><div class="col">{% include "partials/art_anchors.njk" %}<hr></div></div>
   <div class="row">

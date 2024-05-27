@@ -26,6 +26,6 @@ eleventyNavigation:
 <hr>
   {% include "partials/photo_utility.njk" %}
 <hr>
-  {% include "partials/photo_industry.njk" %}
+  {% include "partials/photo_thematic.njk" %}
 </div>
 
