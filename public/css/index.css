@@ -65,7 +65,7 @@ body {
 }
   
 /* Chota grid */
-.container {max-width: var(--grid-maxWidth); margin: 0 auto; width: 90%; padding: 0 calc(var(--grid-gutter) / 2);}
+.container {max-width: var(--grid-maxWidth); margin: 0 auto; width: 100%; padding: 0 calc(var(--grid-gutter) / 2);}
 .row {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-left: calc(var(--grid-gutter) / -2); margin-right: calc(var(--grid-gutter) / -2); margin-top: 1rem; margin-bottom: 1.5rem;}
 .row.reverse {-webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse;}
 .col {-webkit-box-flex: 1; -ms-flex: 1; flex: 1;}
@@ -114,6 +114,7 @@ body {
 /* end Chota grid */
 
 /* vertical spacer */
+.tiny_spacer {height: .5rem;}
 .spacer {height: 3rem;}
 .spacer-sm {height: auto;} @media screen and (min-width: 600px) {.spacer-sm {height: 6rem;}} @media screen and (min-width: 1200px) {.spacer-sm {height: 12rem;}}
 .spacer-md {height: auto;} @media screen and (min-width: 600px) {.spacer-md {height: 12rem;}} @media screen and (min-width: 1200px) {.spacer-md {height: 18rem;}}
@@ -215,14 +216,21 @@ code {
 
 /* Header */
 
-header {
+header, .breadcrumb {
 	padding: 1rem;
 	display: flex;
 	gap: 1em 1em;
 	flex-wrap: wrap;
 /*	justify-content: space-between;*/
 	border-bottom: 1px dashed var(--color-gray-80);
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top:0;
+	width: 100%;
+	background-color: var(--background-color);
+	z-index: 1;
 }
+
 .home-link {
 	font-family: var(--font-family-monospace);
 	font-size: .75em;
@@ -232,16 +240,15 @@ header {
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
- header:after {
+ header:after, .breadcrumb:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-
 /* Nav */
 .nav {
-	display: flex;
+/*	display: flex;*/
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -251,8 +258,13 @@ header {
 	font-size: .75em;
 	display: inline-block;
 	margin-left: 1em;
+	margin-left: .5em;
 }
 .nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+
+.nav-item a {
 	text-decoration: none;
 }
 

@@ -19,7 +19,7 @@
 				<ul class="nav">
 					<li class="nav-item"><a href="/" >{{ metadata.title }}</a></li>
 				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"> / <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a> / </li>
 				{%- endfor %}
 				</ul>
 			</nav>
@@ -28,7 +28,7 @@
 			{{ content | safe }}
 		</main>
 		<footer>
-			©2023 <a href="/about/">James Williams</a>     |     <a href="#top">Return to Top</a>
+			©2024 <a href="/about/">James Williams</a>     |     <a href="#top">Return to Top</a>
 		</footer>
 	</body>
 </html>

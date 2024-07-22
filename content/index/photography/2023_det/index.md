@@ -1,0 +1,79 @@
+---
+layout: layouts/base.njk
+title: DET
+description: utility covers in Detroit
+date: 2023-05
+tags:
+  - photography
+  - utility covers
+eleventyNavigation:
+  key: DET Utility
+  parent: Photography
+---
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("DET Utility") %}
+<div class="breadcrumb">
+    <h3 class="visually-hidden">Breadcrumb</h3>
+	<ul class="nav">
+            {%- for entry in navPages %}
+		<li class="nav-item"{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}> » <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  	    	{%- endfor %}
+	    <li class="nav-item"><active-breadcrumb>» {{ title }}</active-breadcrumb></li>
+	</ul>
+</div>
+<div class="container">
+	<div class="row"></div>
+	<div class="row">
+		<div class="col">
+			<h1>{{ title }}</h1>
+		</div>
+		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col">
+			{% _image "DET_1.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 22' 13.452" N · 83° 4' 22.3" W</figcaption>
+		</div>
+		<div class="col-1 col-1-md col-1-lg"></div>
+		</div>
+	<div class="row">
+		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col">
+			{% _image "DET_2.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 19' 50.19" N · 83° 2' 34.22" W</figcaption>
+			</br></br>
+			{% _image "DET_3.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 21' 29.382" N · 83° 3' 53.84" W</figcaption>
+			</br></br>
+			{% _image "DET_4.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 21' 18.63" N · 83° 3' 57.83" W</figcaption>
+			</br></br>
+			{% _image "DET_11.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 19' 56.91" N · 83° 2' 35.13" W</figcaption>
+		</div>
+		<div class="col">
+			{% _image "DET_5.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 21' 5.532" N · 83° 3' 51.12" W</figcaption>
+			</br></br>
+			{% _image "DET_6.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 21' 14.7" N · 83° 3' 42.31" W</figcaption>
+			</br></br>
+			{% _image "DET_7.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 20' 5.712" N · 83° 2' 52.05" W</figcaption>
+			</br></br>
+			{% _image "DET_12.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 19' 45.858" N · 83° 2' 32.82" W</figcaption>
+		</div>
+		<div class="col">
+			{% _image "DET_8.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 19' 49.128" N · 83° 2' 44.96" W</figcaption>
+			</br></br>
+			{% _image "DET_9.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 19' 48.498" N · 83° 2' 26.83" W</figcaption>
+			</br></br>
+			{% _image "DET_10.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 20' 53.13" N · 83° 3' 53.71" W</figcaption>
+			</br></br>
+			{% _image "DET_13.jpg", "black and white image of a utility cover" %}
+			<figcaption>DET · 42° 20' 4.71" N · 83° 2' 53.06" W</figcaption>
+		</div>
+		<div class="col-1 col-1-md col-1-lg"></div>
+	</div>
+</div>
