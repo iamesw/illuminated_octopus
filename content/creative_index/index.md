@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: Index
-  order: 1
+  order: 2
 ---
 
 <div class="breadcrumb">

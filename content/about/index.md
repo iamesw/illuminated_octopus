@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: James Williams
-  order: 4
+  order: 3
 ---
 
 <div class="container">
