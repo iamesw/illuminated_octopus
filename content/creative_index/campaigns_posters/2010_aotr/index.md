@@ -8,10 +8,10 @@ tags:
   - marketing
   - exhibition
 eleventyNavigation:
-  key: aotr Branding
+  key: AOTR Branding
   parent: Campaigns + Posters
 ---
-{% set navPages = collections.all | eleventyNavigationBreadcrumb("aotr Branding") %}
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("AOTR Branding") %}
 <div class="breadcrumb">
     <h3 class="visually-hidden">Breadcrumb</h3>
 	<ul class="nav">
@@ -35,7 +35,7 @@ eleventyNavigation:
 		</div>
         <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-				{% _image "aotr_2010_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2010_poster.jpg", "Poster with geometric color burst" %}
 				<figcaption>2010 - The new identity</figcaption>
 		</div>
 		<div class="col-1 col-1-md col-1-lg"></div>
@@ -46,41 +46,41 @@ eleventyNavigation:
 	<div class="col-12 col-12-md col-4-lg">
 	<h3>Original Logo</h3>
 		</br></br>
-		{% _image "aotr_original_logo.jpg", "Poster with geometric color burst" %}
+		{% _image "AOTR_original_logo.jpg", "Poster with geometric color burst" %}
 		<figcaption>The previous identity, 2005-2009</figcaption>
 		<p>Work for the redesign culminated in three options that were pitched to museum leadership.</P>
 	</div>
 	<div class="col">
 	<h3>The Ribbon</h3>
-		{% _image "aotr_dev_1_logo.png", "black and white logo A and R in ribbon like style" %}
+		{% _image "AOTR_dev_1_logo.png", "black and white logo A and R in ribbon like style" %}
 		<figcaption>This option creates a monogram of the A and R from Art on the Rocks in a ribbon like, or origami form. It can be presented as a ribbon, or a solid color. This mark speaks to a number of artistic traditions. Drawn out as a ribbon it can imply calligraphy of a Western or Eastern variety. As shapes it can suggest constructivism, abstract expressionism, or more spcifically Gravity’s Rainbow in the Museum collection.</figcaption>
 		</br>
-		{% _image "aotr_dev_1_poster.jpg", "Poster" %}
+		{% _image "AOTR_dev_1_poster.jpg", "Poster" %}
 		<figcaption></figcaption>
 		</br>
-		{% _image "aotr_dev_1_tshirt.png", "light blue tshirt" %}
+		{% _image "AOTR_dev_1_tshirt.png", "light blue tshirt" %}
 		<figcaption></figcaption>
 	</div>
 	<div class="col">
 		<h3>Codename 1965</h3>
-		{% _image "aotr_dev_2_logo.png", "Poster with geometric color burst" %}
+		{% _image "AOTR_dev_2_logo.png", "Poster with geometric color burst" %}
 		<figcaption>In general shape and appearance, this option references, or at least feels related to the text from the original Art on the Rocks logo. The letterforms were pulled from a directional sign in a 1965 photo of the museum's original Lobby. Thus, the logo relates directly to Museum history, while also bearing a familiar relationship to the past Art on the Rocks logo.</figcaption>
 		</br>
-		{% _image "aotr_dev_2_poster.jpg", "Poster" %}
+		{% _image "AOTR_dev_2_poster.jpg", "Poster" %}
 		<figcaption></figcaption>
 		</br>
-		{% _image "aotr_dev_2_tshirt.png", "light blue tshirt" %}
+		{% _image "AOTR_dev_2_tshirt.png", "light blue tshirt" %}
 		<figcaption></figcaption>
 	</div>
 	<div class="col">
 		<h3>The Monogram</h3>
-		{% _image "aotr_dev_3_logo.png", "Poster with geometric color burst" %}
+		{% _image "AOTR_dev_3_logo.png", "Poster with geometric color burst" %}
 		<figcaption>This option is created from the initials of Art on the Rocks, and is set in the same typeface as the Museum logo. The letterforms have been modified, particularly in the way the letters overlap. This mark bears some of the same artistic references as the first, certainly Dada and Constructivism, but is certainly more formal. This formality which relates back to the existing Museum identity can be offset by the application of the logo in layout form, as seen in the following examples.</figcaption>
 		</br>
-		{% _image "aotr_dev_3_poster.jpg", "Poster" %}
+		{% _image "AOTR_dev_3_poster.jpg", "Poster" %}
 		<figcaption>The original pitched poster design, not significantly different than the final production poster.</figcaption>
 		</br>
-		{% _image "aotr_dev_3_tshirt.png", "light blue tshirt" %}
+		{% _image "AOTR_dev_3_tshirt.png", "light blue tshirt" %}
 		<figcaption></figcaption>
 	</div>
     <div class="col-1 col-1-md col-1-lg"></div>
@@ -89,15 +89,15 @@ eleventyNavigation:
 	<div class="row">
 		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-				{% _image "aotr_2011_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2011_poster.jpg", "Poster with geometric color burst" %}
 				<figcaption>2011 - <em>Who Shot Rock & Roll</em> dominated the summer. To match the aesthetic, the approach was a grungy background and distressing the newly established logo.</figcaption>
 		</div>
 		<div class="col">
-				{% _image "aotr_2012_poster.jpg", "Poster with geometric color burst" %}
-			<figcaption>2012 - The summer theme was based on the exhibition <em>Warhol and Cars</em>. As such, it was time to deploy a pop-art influenced mash-up using vintage cars and the aotr logo.</figcaption>
+				{% _image "AOTR_2012_poster.jpg", "Poster with geometric color burst" %}
+			<figcaption>2012 - The summer theme was based on the exhibition <em>Warhol and Cars</em>. As such, it was time to deploy a pop-art influenced mash-up using vintage cars and the AOTR logo.</figcaption>
 		</div>
     	<div class="col">
-				{% _image "aotr_2013_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2013_poster.jpg", "Poster with geometric color burst" %}
 			<figcaption>2013 - No major exhibition theme for the summer meant a new approach. Crossover performances in the galleries was a new addition, so they were featured in the overlapping logo forms. Frontman for the marquee hometown band, St. Paul and the Broken Bones, took top visual billing.</figcaption>
 		</div>
 		<div class="col-1 col-1-md col-1-lg"></div>
@@ -105,15 +105,15 @@ eleventyNavigation:
 	<div class="row">
 		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-				{% _image "aotr_2014_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2014_poster.jpg", "Poster with geometric color burst" %}
 				<figcaption>2014 - The big TEN. More refinement, references to the 2010 layout, remixed with a samurai print, the exhibition of the summer being <em>Lethal Beauty:Samurai Weapons and Armor</em>. </figcaption>
 		</div>
 		<div class="col">
-				{% _image "aotr_2015_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2015_poster.jpg", "Poster with geometric color burst" %}
 			<figcaption>2015 - The introduction of a new brand for the museum. The large black bar was an expansion of an information strip used in wider branding. The illustrations were drawn from prior attendees.</figcaption>
 		</div>
     	<div class="col">
-				{% _image "aotr_2016_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2016_poster.jpg", "Poster with geometric color burst" %}
 			<figcaption>2016 - A return to form. A swirling vortex of logo as the reliance on summer themes was reduced.</figcaption>
 		</div>
 		<div class="col-1 col-1-md col-1-lg"></div>
@@ -121,15 +121,15 @@ eleventyNavigation:
 	<div class="row">
 		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-				{% _image "aotr_2017_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2017_poster.jpg", "Poster with geometric color burst" %}
 				<figcaption>2017 - A request for a more minimal take on the identity. Flipping the aesthetic, logo in outline form, color in parallel bars.</figcaption>
 		</div>
 		<div class="col">
-				{% _image "aotr_test.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2018_poster.jpg", "Poster with geometric color burst" %}
 			<figcaption>2018 - Keeping the outlined logo approach, bringing in the neon and a greater focus on the musical acts.</figcaption>
 		</div>
     	<div class="col">
-				{% _image "aotr_2019_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2019_poster.jpg", "Poster with geometric color burst" %}
 			<figcaption>2019 - A break from the logo. Though a new identity wasn't proscribed, there was an intention to focus more on the museum identity and less on the standalone Art on the Rocks identity. The color theme and fragmented elements were retained as a call back to the Art on the Rocks brand.</figcaption>
 		</div>
 		<div class="col-1 col-1-md col-1-lg"></div>
@@ -137,11 +137,11 @@ eleventyNavigation:
 	<div class="row">
 		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-				{% _image "aotr_2022_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2022_poster.jpg", "Poster with geometric color burst" %}
 				<figcaption>2022 - After a two year pandemic hiatus, it was time to bring the event back. Just one event instead of multiple dates, and a new remix of the elements. Museum branding at the forefront even more than 2019, but a stronger call-back to the original Art on the Rocks look with the overlapping logo pattern.</figcaption>
 		</div>
 		<div class="col">
-				{% _image "aotr_2023_2.jpg", "Poster with geometric color burst" %}
+				{% _image "AOTR_2023_2.jpg", "Poster with geometric color burst" %}
 				<figcaption>2023 - A black and white look inspired by the promo photography of the headlining act. Introducing a new take on both the Art on the Rocks and the Birmingham Museum of Art identities.</figcaption>
 		</div>
     	<div class="col"></div>
