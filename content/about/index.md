@@ -52,7 +52,7 @@ eleventyNavigation:
   <div class="row">
     <div class="col">
       <p><strong>Design Week Birmingham</strong></br>Birmingham, Alabama</p>
-      <figcaption>Planning Committee Member</br>2013 · 2014 · 2015</figcaption>
+      <figcaption>Planning Committee Member</br>Volunteer</br>2013 · 2014 · 2015</figcaption>
     </div>
     <div class="col">
       <p>Served on the planning committee that established the first design festival in Birmingham. Contributed to the scope of the event. Coordinated and spearheaded the development and implementation of Design Week Birmingham events at the Birmingham Museum of Art.</p>

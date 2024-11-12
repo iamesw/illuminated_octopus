@@ -52,18 +52,4 @@ eleventyNavigation:
 		</div>
         <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
-		<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col"></div>
-		<div class="col">
-			{% _image "mb_2023_2.png", "event invitation" %}
-		</div>
-		<div class="col">
-			{% _image "mb_2023_2.png", "event invitation" %}
-		</div>
-		<div class="col">
-			{% _image "mb_2023_2.png", "event invitation" %}
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-	</div>
 </div>

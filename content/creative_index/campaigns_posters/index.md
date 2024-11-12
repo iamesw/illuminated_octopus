@@ -15,5 +15,6 @@ eleventyNavigation:
 	</ul>
 </div>
 <div class="container">
- {% include "partials/campaigns_posters.njk" %}
+    <div class="full-width">{% _image "ad/homepage_third_space_mockup.jpg", "black and white image of poster display in a subway station, train streaking by in motion" %}</div>
+	{% include "partials/campaigns_posters.njk" %}
 </div>
