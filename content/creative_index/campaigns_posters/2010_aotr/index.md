@@ -125,7 +125,7 @@ eleventyNavigation:
 				<figcaption>2017 - A request for a more minimal take on the identity. Flipping the aesthetic, logo in outline form, color in parallel bars.</figcaption>
 		</div>
 		<div class="col">
-				{% _image "AOTR_2018_poster.jpg", "Poster with geometric color burst" %}
+				{% _image "aotr_test.jpg", "Poster with geometric color burst" %}
 			<figcaption>2018 - Keeping the outlined logo approach, bringing in the neon and a greater focus on the musical acts.</figcaption>
 		</div>
     	<div class="col">
