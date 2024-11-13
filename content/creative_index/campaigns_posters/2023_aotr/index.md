@@ -33,7 +33,7 @@ eleventyNavigation:
 		</div>
         <div class="col-1 col-1-md col-1-lg"></div>
         <div class="col">
-			{% _image "AOTR_2023_2.jpg", "event poster" %}
+			{% _image "aotr_2023_2.jpg", "event poster" %}
 		</div>
         <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
