@@ -34,7 +34,6 @@ eleventyNavigation:
 		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "zga_1.jpeg", "black and white image of a utility cover" %}
 			<figcaption></figcaption>
@@ -65,6 +64,5 @@ eleventyNavigation:
 			{% _image "zga_9.jpeg", "black and white image of a utility cover" %}
 			<figcaption></figcaption>
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

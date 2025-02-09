@@ -24,24 +24,22 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2015 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
 			<figcaption>Fonts in Use:</br>Mrs. Eaves, Mr. Eaves Sans, and Riviera Script</figcaption>
+			<figcaption>Related Projects:</br>» Logotype</figcaption>  
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col-8 col-8-md col-8-lg">
 			{% _image "mb_2015_3.jpg", "event invitation" %}
 			</br>
 			{% _image "mb_2015_4.jpg", "event invitation" %}
 			<figcaption>Save the Date</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2015_5.jpg", "event invitation" %}
 			<figcaption>Tri-fold Invitation</figcaption>
@@ -52,6 +50,5 @@ eleventyNavigation:
 		<div class="col">
 			{% _image "mb_2015_7.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

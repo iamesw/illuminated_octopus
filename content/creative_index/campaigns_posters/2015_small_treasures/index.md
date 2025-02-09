@@ -25,30 +25,28 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2015 | Birmingham Museum of Art</figcaption>
 			<figcaption>Campaign</figcaption>
 			<figcaption>Fonts in Use:</br>DIN and Akzidenz Grotesk</figcaption>
+			<figcaption>Related Projects:</br>» <a href=/creative_index/interactive_exhibitions/2015_small>Environmental Graphics | Exhibition</a></figcaption>
             <hr>
 			<p><em>Small Treasures: Rembrandt, Vermeer, Hals, and Their Contemporaries</em> was the first exhibition to explore this little-known field of small-format 17th-century paintings from the Dutch and Flemish Golden Age.</p>
 			<p>The exhibition brought together 40 small-scale oil paintings, most of which are no more than ten inches in height, by 28 artists who lived and worked in what is today the Netherlands and Belgium during the 17th century.</p>
 			<p>During the Golden Age of Dutch and Flemish painting in the 17th century, artists demonstrated more than ever before a love for minute and precise detail by painting on a small scale. At the time, the incredible technical skills of artists were highly revered, creating a demand for small-scale portraits. These precious paintings played an important part of many artists’ practices but have historically been overlooked by scholars and museum exhibitions.</p>
 			<p>Drawn from public and private collections throughout the United States, <em>Small Treasures</em> featured the small–scale work of the greatest masters of Dutch and Flemish art including Anthony van Dyck, Adriaen Brouwer, David Teniers, Frans Hals, Rembrandt, Vermeer, Jan Steen, Gerard Terborch, Gerrit Dou, and Frans van Mieris.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 		      {% _image "small_treasures_1.jpg", "Poster for an exhibition of small dutch paintings" %}
+			  <figcaption>Teaser poster featuring abstraction of each painting's period frame. Small dimension markers indicate just how small the paintings are. </figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col"><figcaption>Posters</br>11 x 17 format allowing for the 1:1 scale reproduction of the paintings in an abstraction of their period specific frames.</figcaption></div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 		    {% _image "small_treasures_2.jpg", "Poster for an exhibition of small dutch paintings" %}
 		</div>
@@ -58,15 +56,11 @@ eleventyNavigation:
 		<div class="col">
 		    {% _image "small_treasures_4.jpg", "Poster for an exhibition of small dutch paintings" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col"><figcaption>Billboards</figcaption></div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
         <div class="col">
 		      {% _image "small_treasures_6.jpg", "Poster for an exhibition of small dutch paintings" %}
 			</br></br>
@@ -83,15 +77,11 @@ eleventyNavigation:
 		      {% _image "small_treasures_12.jpg", "Poster for an exhibition of small dutch paintings" %}
 			</br></br>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col"><figcaption>Building Banners</figcaption></div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 		    {% _image "small_treasures_13.jpg", "Poster for an exhibition of small dutch paintings" %}
 		</div>
@@ -101,6 +91,5 @@ eleventyNavigation:
 		<div class="col">
 		    {% _image "small_treasures_15.jpg", "Poster for an exhibition of small dutch paintings" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

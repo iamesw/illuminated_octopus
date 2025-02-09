@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
 <div class="row"></div>
 <div class="row">
-<div class="col">
+    <div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2017 | Birmingham Museum of Art</figcaption>
 			<figcaption>Gallery Guide</br>12 pages / selfcover</figcaption>
@@ -32,23 +32,25 @@ eleventyNavigation:
 			<hr>
 		    	<p><em>Afterlife: Asian Art from the Weldon Collection</em> journeyed across Asia to explore the fascinating role of art in this life and the next. Inspired by the bequest of Henry and June (“Jimmy”) Weldon, the exhibition included a wide variety of sculpture, ceramics, and tomb wares that reflect ancient fashion trends, entertainments, status symbols and religions, throughout the ages. Over 60 works spanned thousands of years of history from China, Japan, India, the Himalayas and Southeast Asia.</p>
       </div>
-      <div class="col-1 col-1-md col-1-lg"></div>
-      <div class="col">
-			{% _image "afterlife_1.jpg", "cover with illustrated cover" %}
+      <div class="col"></div>
+      <div class="col-6 col-6-md col-6-lg">
+			{% _image "afterlife_1.jpg", "brochure cover with image of buddha sculpture" %}
       </div>
-      <div class="col-1 col-1-md col-1-lg"></div>
   </div>
     <div class="row">
-      <div class="col-1 col-1-md col-1-lg"></div>
       <div class="col">
             {% _image "afterlife_2.jpg", "book layout" %}
-        </br></br>
+      </div>
+      <div class="col">
             {% _image "afterlife_3.jpg", "book layout" %}
-        </br></br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
             {% _image "afterlife_4.jpg", "book layout" %}
         </br></br>
             {% _image "afterlife_6.jpg", "book layout" %}
       </div>
-      <div class="col-1 col-1-md col-1-lg"></div> 
     </div>
 </div>

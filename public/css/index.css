@@ -1,17 +1,23 @@
 @font-face {	
-	font-family: "Plex Mono";
-	src: url(/public/css/fonts/IBMPlexMono-Regular.ttf) format(truetype);
+	font-family: JetBrainsMono;
+	src: url(../fonts/JetBrainsMono[wght].ttf);
 }
 
 @font-face {
-	font-family: "Public Sans";
-	src: url(/public/css/fonts/PublicSans[wght].ttf) format(truetype);
+	font-family: Public Sans;
+	src: url(../fonts/PublicSans[wght].ttf);
+}
+
+@font-face {
+	font-family: Barlow;
+	src: url(../fonts/Barlow-Medium.ttf) format('truetype');
 }
 
 /* Defaults */
 :root {
-	--font-family: "Public Sans", -apple-system, system-ui, sans-serif;
-	--font-family-monospace: "Plex Mono", Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family: Public Sans, -apple-system, system-ui, sans-serif;
+	--font-family-monospace: JetBrainsMono, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-special: Barlow, -apple-system, system-ui, sans-serif;
 }
 
 /* Theme colors */
@@ -185,6 +191,7 @@ footer {
 	padding: 1rem;
 	font-family: var(--font-family-monospace);
 	font-size: .75rem;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .links-nextprev {
 	font-family: var(--font-family-monospace);
@@ -244,6 +251,7 @@ header, .breadcrumb {
 	width: 100%;
 	background-color: var(--background-color);
 	z-index: 2;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .home-link {
@@ -267,10 +275,12 @@ header, .breadcrumb {
 	padding: 0;
 	margin: 0;
 	list-style: none;
-}
-.nav-item {
 	font-family: var(--font-family-monospace);
 	font-size: .75em;
+}
+.nav-item {
+/*	font-family: var(--font-family-monospace);
+	font-size: .75em;*/
 	display: inline-block;
 	margin-left: 1em;
 	margin-left: .5em;
@@ -293,6 +303,39 @@ active-breadcrumb {
 	color:	var(--text-color-link-active);
 }
 
+/*dropdown menu*/
+
+.dropdown {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	font-family: var(--font-family-monospace);
+	font-size: .75em;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: var(--background-color);
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 3;
+  }
+
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	right: 0;
+  }
+
+.dropdown-content a:hover {}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
 hr {
     display: block;
     height: 1px;
@@ -418,14 +461,13 @@ center{
 	background-color: #e0e0e0;
 }
 
-
 img {
-	height:auto;
-	max-width: 100%;
+	height: auto;
+	width: 100%;
 	display: block;
 	border-style: none;
+	overflow: hidden;
 }
-
 
 a img{
 	opacity: 1;
@@ -436,6 +478,8 @@ a img{
 a img:hover{
 	opacity: .5;
 }
+
+
 /*
 a img {
 	-webkit-transform: scale(1);
@@ -451,8 +495,8 @@ a img:hover {
 */
 
 picture, figure {
-/*	height:auto;
-	max-width: 100%;*/
+	height:auto;
+	max-width: 100%;
 	display: block;
 	border-style: none;
 	margin: 0;
@@ -493,6 +537,6 @@ picture, figure {
 	}
 	div#slider figure img { width: 20%; float: left; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 , footer a, header a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 , footer a, header a, figcaption a {
 	text-decoration: none;
 }

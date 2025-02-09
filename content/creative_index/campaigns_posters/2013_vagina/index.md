@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2013 | The Crisis Center</figcaption>
 			<figcaption>Poster</figcaption>
@@ -32,10 +32,9 @@ eleventyNavigation:
 			<hr>
             <p>A friend put together a performance of <em>The Vagina Monologues</em> at the local university. She designed a poster featuring a vintage image of nude  or topless women dancing in a circle. I don't recall the specifics of the image, but it was tasteful. Think a classical Greek image. The university, already mildly uncomfortable with the performance, said the poster was not allowed because of the nudity. My friend asked if I could help develop another poster. In a subtle protest of sorts, I took a list of slang terms for vagina and "quoted" them in a sequence. Though arguably more offensive considering some of the terms listed, no issues were raised with the new poster.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "vagina_1.jpg", "poster for performance of the vagina monologues" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

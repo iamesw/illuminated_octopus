@@ -1,0 +1,105 @@
+{
+	// Place your illuminated_octopus workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+//Grid Snippets//
+"Column Grid Flex": {"prefix": "col","body": ["<div class=\"col\"></div>"],"description": "Flex Column"},
+"Column Grid 1": {"prefix": "col1","body": ["<div class=\"col-1 col-1-md col-1-lg\"></div>"],"description": "Column Grid 1"},
+"Column Grid 2": {"prefix": "col2","body": ["<div class=\"col-2 col-2-md col-2-lg\"></div>"],"description": "Column Grid 2"},
+"Column Grid 3": {"prefix": "col3","body": ["<div class=\"col-3 col-3-md col-3-lg\"></div>"],"description": "Column Grid 3"},
+"Column Grid 4": {"prefix": "col4","body": ["<div class=\"col-4 col-4-md col-4-lg\"></div>"],"description": "Column Grid 4"},
+"Column Grid 5": {"prefix": "col5","body": ["<div class=\"col-5 col-5-md col-5-lg\"></div>"],"description": "Column Grid 5"},
+"Column Grid 6": {"prefix": "col6","body": ["<div class=\"col-6 col-6-md col-6-lg\"></div>"],"description": "Column Grid 6"},
+"Column Grid 7": {"prefix": "col7","body": ["<div class=\"col-7 col-7-md col-7-lg\"></div>"],"description": "Column Grid 7"},
+"Column Grid 8": {"prefix": "col8","body": ["<div class=\"col-8 col-8-md col-8-lg\"></div>"],"description": "Column Grid 8"},
+"Column Grid 9": {"prefix": "col9","body": ["<div class=\"col-9 col-9-md col-9-lg\"></div>"],"description": "Column Grid 9"},
+"Column Grid 10": {"prefix": "col10","body": ["<div class=\"col-10 col-10-md col-10-lg\"></div>"],"description": "Column Grid 10"},
+"Column Grid 11": {"prefix": "col11","body": ["<div class=\"col-11 col-11-md col-11-lg\"></div>"],"description": "Column Grid 11"},
+"Column Grid 12": {"prefix": "col12","body": ["<div class=\"col-12 col-12-md col-12-lg\"></div>"],"description": "Column Grid 12"},
+"Grid Row": {"prefix": "row","body": ["<div class=\"row\"></div>",""],"description": "Grid Row"},
+"Spacer": {"prefix": "space","body": ["<div class=\"spacer\"></div>"],"description": "Default Spacer"},
+"Small Spacer": {"prefix": "small","body": ["<div class=\"spacer-sm\"></div>"],"description": "Small Spacer"},
+"Medium Spacer": {"prefix": "med","body": ["<div class=\"spacer-md\"></div>"],"description": "Medium Spacer"},
+"Large Spacer": {"prefix": "large","body": ["<div class=\"spacer-lg\"></div>"],"description": "Large Spacer Spacer"},
+"Tiny Spacer": {"prefix": "tiny","body": ["<div class=\"tiny_spacer\"></div>"],"description": "Tiny Spacer"},
+"Full Width": {"prefix": "full","body": ["<div class=\"full-width\"></div>"],"description": "Full Width"},
+
+//Type and Image//
+"Figure Caption": {"prefix": "fig","body": ["<figcaption> </figcaption>"],"description": "Figure Caption"},
+"Image Shortcode": {"prefix": "ims","body": ["{% _image \"\", \"\" %}",""],"description": "Image Shortcode"},
+"Insert Image Link": {"prefix": "iml","body": ["<a href=/link>{% _image \"\", \"alt\" %}</a>",""],"description": "Insert Image Link"},
+"Column Portfolio Link": {"prefix": "plink","body": ["<div class=\"col\"><figcaption>Date | Type</figcaption>","<a href=/link>{% _image \"\", \"alt\" %}</a>","</div>",""],"description": "Column Portfolio Link"}, 
+
+//Navigation and Such//
+"Insert Partial": {"prefix": "part","body": ["{% include \"partials/text\" %}"],"description": "Insert Partial"},
+"Insert Link": {"prefix": "link","body": ["<a href=/link>text</a>",""],"description": "Insert Link"},
+"Breadcrumb Navigation": {"prefix": "bread","body": ["{% set navPages = collections.all | eleventyNavigationBreadcrumb(\"key\") %}","<div class=\"breadcrumb\">","    <h3 class=\"visually-hidden\">Breadcrumb</h3>","	<ul class=\"nav\">","            {%- for entry in navPages %}","		<li class=\"nav-item\"{% if entry.url == page.url %} class=\"active-breadcrumb\"{% endif %}> » <a href=\"{{ entry.url }}\">{{ entry.title }}</a></li>","  	    	{%- endfor %}","	    <li class=\"nav-item\"><active-breadcrumb>» {{ title }}</active-breadcrumb></li>","	</ul>","</div>"],"description": "Breadcrumb Navigation"},
+"Related Projects Books": {"prefix": "rbook","body": ["<figcaption>Related Projects:</br>» <a href=/creative_index/books_editorial_brochures/project>Type</a></figcaption>  "],"description": "Related Book Brochure Editorial Projects"},
+"Related Projects Posters": {"prefix": "rposter","body": ["<figcaption>Related Projects:</br>» <a href=/creative_index/campaigns_posters/project>Type</a></figcaption>  "],"description": "Related Campaign Poster Projects"},
+"Related Projects Ephemera": {"prefix": "rephemera","body": ["<figcaption>Related Projects:</br>» <a href=/creative_index/ephemera_misc/project>Type</a></figcaption>  "],"description": "Related Ephemera Misc Projects"},
+"Related Projects Logos": {"prefix": "rlogo","body": ["<figcaption>Related Projects:</br>» <a href=/creative_index/identity_branding/project>Type</a></figcaption>  "],"description": "Related Identity Branding Projects"},
+"Related Projects Exhibition": {"prefix": "rexhibit","body": ["<figcaption>Related Projects:</br>» <a href=/creative_index/interactive_exhibitions/project>Type</a></figcaption>  "],"description": "Related Interactive Exhibition Projects"},
+
+//Page Builder//
+"Portfolio Page": {"prefix": "portfolio","body": [
+    "---",
+    "layout: layouts/base.njk",
+    "title: ",
+    "description: ",
+    "date: ",
+    "tags:",
+    "  - graphic design",
+    "  - marketing",
+    "  - poster",
+    "  - exhibition",
+    "  - campaign",
+    "eleventyNavigation:",
+    "  key: ",
+    "  parent: ",
+    "---",
+    "",
+    "{% set navPages = collections.all | eleventyNavigationBreadcrumb(\" \") %}",
+    "<div class=\"breadcrumb\">",
+    "    <h3 class=\"visually-hidden\">Breadcrumb</h3>",
+    "	<ul class=\"nav\">",
+    "            {%- for entry in navPages %}",
+    "		<li class=\"nav-item\"{% if entry.url == page.url %} class=\"active-breadcrumb\"{% endif %}> » <a href=\"{{ entry.url }}\">{{ entry.title }}</a></li>",
+    "  	    	{%- endfor %}",
+    "	    <li class=\"nav-item\"><active-breadcrumb>» {{ title }}</active-breadcrumb></li>",
+    "	</ul>",
+    "</div>",
+    "<div class=\"container\">",
+    "	<div class=\"row\"></div>",
+    "	<div class=\"row\">",
+    "        <div class=\"col-4 col-4-md col-4-lg\">",
+    "			<h1>{{ title }}</h1>",
+    "			<figcaption>date | Client</figcaption>",
+    "			<figcaption>Type</figcaption>",
+    "			<figcaption>Fonts in Use:</br>names</figcaption>",
+    "            <hr>",
+    "		</div>",
+    "        <div class=\"col\"></div>",
+    "        <div class=\"col-6 col-6-md col-6-lg\">",
+    "			{% _image \"\", \"\" %}",
+    "		</div>",
+    "	</div>",
+    "	<div class=\"row\"></div>",
+    "</div>"
+  ],
+  "description": "Portfolio Page"
+}
+}

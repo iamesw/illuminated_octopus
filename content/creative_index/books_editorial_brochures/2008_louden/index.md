@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2008 | Birmingham Museum of Art</figcaption>
             <figcaption>Exhibition Catalog</br>48 pages / softcover / perfect bound</figcaption>
@@ -32,43 +32,28 @@ eleventyNavigation:
 			<hr>
 	    	<p>This exhibition presented new work by New York-based artist Sharon Louden that visually connected the Museum’s galleries and the Sculpture Garden. Louden’s work primarily focuses on gesture, line, and materials. She used three mediums in this project: fiber optic sculpture in the Sculpture Garden, along with projected video animations and paintings inside the galleries.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-			{%_image "louden_1.jpg", "book cover abstract illustration" %}
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">{%_image "louden_1.jpg", "book cover abstract illustration" %}</div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
-            {%_image "louden_2.png", "book cover abstract illustration" %}
-        </br></br>
-            {%_image "louden_3.png", "book layout" %}
-        </br></br>
-            {%_image "louden_4.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_5.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_6.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_7.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_8.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_9.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_10.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_11.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_12.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_13.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_14.jpg", "book layout" %}
-        </br></br>
-            {%_image "louden_15.jpg", "book layout" %}
-        </div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col">{%_image "louden_5.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_6.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_7.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "louden_8.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_9.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "louden_10.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_11.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_12.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "louden_13.jpg", "book layout" %}</div>
+        <div class="col">{%_image "louden_14.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "louden_2.png", "book cover abstract illustration" %}</div>
   	</div>
 </div>

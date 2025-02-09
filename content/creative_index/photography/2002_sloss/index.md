@@ -22,7 +22,7 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>1998–2002 | 35mm</figcaption>
 			<figcaption>Nikon FM-10 / F100</br>Kodak Tri-X 400 / TMax 3200</br>Scanned from 4 x 6 prints</figcaption>
@@ -32,11 +32,10 @@ eleventyNavigation:
 			<p>I would use many of these photos as a starting point for linocut prints and later paintings.</p>
 			<hr>
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+		<div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">
 			{% _image "sloss_photo_7.jpg", "" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col-1 col-1-md col-1-lg"></div>

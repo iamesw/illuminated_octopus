@@ -14,9 +14,13 @@ eleventyNavigation:
         <h2>Experience</h2>
     </div>
     <div class="col">
-      <p>Designer with 20 years of experience in graphic design, art direction, and creative direction, primarily in the museum sector.</p>
+      <p>I have more than 20 years of experience in graphic design, art direction, and creative direction, primarily in the museum sector.</p>
     </div>
-    <div class="col"></div>
+    <div class="col">
+      <div class="spacer"></div>
+      <p>Time and place are recurring themes in my personal practice. As a designer I am in service to the content of the project. Not by minimalism or strict Swiss style, but guided by a clean and unfussy approach.</p> 
+      <p>Though my focus is producing elegant books and catalogs for artists, galleries, and museums; I am experienced in branding and marketing design and offer a comprehensive set of design services.</p>
+    </div>
     <div class="col"></div>
   </div>
   <hr>
@@ -35,12 +39,14 @@ eleventyNavigation:
 	    <p>Conceptualized, designed, or art directed more than a dozen books and exhibition catalogs. Topics and themes ranged from single-artist contemporary catalogs, focused artist surveys, large group exhibitions, collection handbooks, to single donor catalogs. Collaborated with single authors, artists, and multiple author contributors. Managed book design and production process from concept through layout, prepress, color proofing, and printing; publishing and printing locally, with university presses, and international publishers.</p>
     </div>
     <div class="col">
+      <div class="spacer-sm"></div>
     	<p>Designed more than 50 quarterly issues of the museum member magazine, refining the aesthetic to meet museum standards, implementing 6 major redesigns, and a transition to digital-only publication. Worked with multiple editors, collaborating on redesigns to meet shifting demands, and also coordinating between curatorial and education departments on content.</p>
 	    <p>Collaborated with a cross-departmental digital media team, contributing to the underlying strategy for the smartguide, a mobile web application for use in-gallery. Continued that strategy by extending the platform as smartguide+ to power in-gallery interactive stations ranging from iPads to large screen touch monitors. Built multiple in-gallery interactives in collaboration with digital media team, exhibition curators, and education staff to enhance the understanding of exhibition themes and provide social and historical context in engaging ways.</p>
 	    <p>Presented the development process and success of the smartguide at MCN 2017 session, <em>Cheap and Replicable: Building a New System for Digital Engagement in Small to Mid-Size Museums,</em> and co-authored post conference case-study published in the proceedings of COMPASS Conference 2018 highlighting the design choices of the smartguide.</p>
 	    <p>In 2021, was promoted to museum leadership based on long-term strategic thinking. Served as Key Result Area manager during strategic planning process, leading a team of 6 to develop key outcomes to optimize the digital resources and engagement of the museum for the next 3-5 years.
     </div>
     <div class="col">
+      <div class="spacer-md"></div>
 	    <p>Facing an aging and uneditable website during an economic downturn, and thus a budget crunch, conceptualized, developed, and launched a new museum website with a 3 person team. Continued to provide insight and feedback over new iterations and content management systems. Advanced the initiative to implement an online collection database as part of an open access initiative.</p>
 	    <p>Liaised with external agency on development of new brand identity for the museum. Receiving basic logo and usage guides, established brand standards across print and digital media. Extended the brand across outdoor signage and banners. Developed and designed large scale signage installation at the Birmingham-Shuttlesworth International Airport.</p>
 	    <p>Collaborated with Director of PR and Marketing on advertising campaigns, co-copywriting and designing multiple award winning marketing campaigns for exhibitions. Rebranded existing Art on the Rocks program, enlivening a popular but flagging program, elevating the aesthetic to match the maturation of the event.</p>
@@ -98,4 +104,5 @@ eleventyNavigation:
     </div>
     <div class="col"></div>
   </div>
+  <hr>
 </div>

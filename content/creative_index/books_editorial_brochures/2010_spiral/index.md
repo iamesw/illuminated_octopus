@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2010 | Birmingham Museum of Art</figcaption>
             <figcaption>Gallery Guide</br>8 pages / selfcover</figcaption>
@@ -33,29 +33,23 @@ eleventyNavigation:
 		    	<p>In the early 1960s in New York, the artist Romare Bearden invited a group of African-American artists to meet and discuss their roles as black artists during the charged years of the Civil Rights movement. On July 5th, 1963, the group decided to form a collective and called themselves Spiral. The name was inspired by the Archimedean spiral, which moves outward embracing all directions, yet constantly upward.</P>
 				<p>This exhibition, <em>Spiral: Perspectives on an African-American Art Collective</em>, featured work by Romare Bearden, Norman Lewis, Charles Alston, Hale Woodruff, Reginald Gammon, Richard Mayhew, and Emma Amos.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+        <div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">
 			{% _image "spiral_1.jpg", "cover with illustrated cover" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
             {% _image "spiral_2.jpg", "book layout" %}
-        </br></br>
+        </div>
+		<div class="col">
             {% _image "spiral_3.jpg", "book layout" %}
-        </br></br>
-            {% _image "spiral_4.jpg", "book layout" %}
-		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
+        </div>
   	</div>
 	<div class="row">
-		<div class="col"></div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
-            {% _image "spiral_5.jpg", "book layout" %}
+            {% _image "spiral_4.jpg", "book layout" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col"></div>
   	</div>
 </div>

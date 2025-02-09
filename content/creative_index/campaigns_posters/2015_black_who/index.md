@@ -25,21 +25,19 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2015 | Birmingham Museum of Art</figcaption>
 			<figcaption>Poster</figcaption>
 			<figcaption>Fonts in Use:</br>Akzidenz Grotesk</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "who_11.jpg", "Poster for an art exhibition" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "who_13.jpg", "Poster for an art exhibition" %}
 		</div>
@@ -49,6 +47,5 @@ eleventyNavigation:
         <div class="col">
 			{% _image "who_12.jpg", "Poster for an art exhibition" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

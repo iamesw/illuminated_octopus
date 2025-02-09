@@ -1,17 +1,17 @@
 ---
 layout: layouts/base.njk
-title: Alabama Folk Art Invitation
-description: Opening invitation for a folk art exhibition
-date: 2001-08-15
+title: Photography Guild Invitation
+description: Opening invitation for a photography collection support group
+date: 2008-09-13
 tags:
   - graphic design
   - ephemera
   - invitation
 eleventyNavigation:
-  key: 2007 folkart
+  key: 2008 photoguild
   parent: Ephemera + Miscellaneous
 ---
-{% set navPages = collections.all | eleventyNavigationBreadcrumb("2007 folkart") %}
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("2008 photoguild") %}
 <div class="breadcrumb">
     <h3 class="visually-hidden">Breadcrumb</h3>
 	<ul class="nav">
@@ -24,19 +24,17 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2007 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
 			<figcaption>Fonts in Use:</br>Clarendon and Trade Gothic</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col-8 col-8-md col-8-lg">
 		      {% _image "photoguild_1.jpg", "event invitation" %}
 			  </br>
 			  {% _image "photoguild_2.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

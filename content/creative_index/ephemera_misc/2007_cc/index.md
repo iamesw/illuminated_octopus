@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2007 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
@@ -32,12 +32,10 @@ eleventyNavigation:
             <hr>
 			<p>The 2007 Collectors Circle Dinner would celebrate the acquisition of a piece of video art by Bill Viola. In the two channel video a man and woman slowly emerge out of rippling water. To reference this effect, I designed the elements necessary for the invitation, then scanned them, moving the paper and distorting the text.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col-8 col-8-md col-8-lg">
 			{% _image "cc_2007_1.jpg", "event invitation" %}
 			</br>
 			{% _image "cc_2007_2.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

@@ -24,22 +24,20 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2019 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
 			<figcaption>Fonts in Use:</br>Macula, Acier, and Neutra</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "mb_2019_12.png", "event invitation" %}
 			<figcaption>Three invitation pieces stacked and wrapped in small "folder" with band holding all pieces together.</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2019_11.jpg", "event invitation" %}
 			<figcaption>Single Fold Invitation | Can be swapped with Save the Date</figcaption>
@@ -47,18 +45,14 @@ eleventyNavigation:
 		<div class="col">
 			{% _image "mb_2019_10.jpg", "event invitation" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2019_9.jpg", "event invitation" %}
 			<figcaption>Wrap</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2019_5.jpg", "event invitation" %}
 			<figcaption>Save the Date Card | Can be swapped with Invitation</figcaption>
@@ -76,6 +70,5 @@ eleventyNavigation:
 			{% _image "mb_2019_8.jpg", "event invitation" %}
 			<figcaption>RSVP Card</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

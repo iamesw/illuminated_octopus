@@ -25,7 +25,7 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+        <div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2018 | Birmingham Museum of Art</figcaption>
 			<figcaption>Tri-fold Brochure</figcaption>
@@ -39,28 +39,23 @@ eleventyNavigation:
 		<div class="col">
 			{% _image "map_2018_1s.jpg", "map brochure" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col-2 col-2-md col-2-lg"></div>
 		<div class="col">
 			{% _image "map_2018_2.jpg", "map brochure" %}
 		</div>
 		<div class="col">
 			{% _image "map_2018_2s.jpg", "map brochure" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col-2 col-2-md col-2-lg"></div>
 		<div class="col">
 			{% _image "map_2018_3.jpg", "map brochure" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "map_2018_3s.jpg", "map brochure" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

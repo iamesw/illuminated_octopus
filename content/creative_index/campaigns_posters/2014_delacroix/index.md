@@ -25,7 +25,7 @@ eleventyNavigation:
 <div class="container">
 <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2014 | Birmingham Museum of Art</figcaption>
             <figcaption>Marketing Campaign</figcaption>
@@ -34,15 +34,18 @@ eleventyNavigation:
 			<p><em>Delacroix and the Matter of Finish</em> featured the dramatic work of the leader of the French Romantic Movement, who was often heralded as “the father of impressionism.” The exhibition highlighted Delacroix’s unparalleled coloristic surface effects, his famously troubled collaboration with his studio assistants, and his preoccupation with the fate of civilizations. Filled with high drama, a fiery color palette, and expressive brushstrokes, Delacroix’s style set the precedent for later artists like Renoir, Seurat, and Cézanne.</P>
 			<p>The curator for this exhibition of Delacroix work didn't want a staid, formal, or "classical" approach typical to marketing "a French painting show." As Delacroix was considered somewhat radical in his day, a vibrant CMYK color palette and bold type was chosen. Though many of his works are easily recognizable by the public, Delacroix is not necessarily a household name. The campaign then revolved around answering the idea of "Who is Delacroix?" in a call and response featuring aspects of his work in an attempt to introduce him to the local market.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "delacroix_0.jpg", "poster for a delacroix exhibition" %}
 			<figcaption>The initial design concept expressed in a full page ad, featuring the exhibition title.</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col">
+			<figcaption>The introduction of the call and response, front and back on coasters, featured at local bars and restaurant partners.</figcaption> 
+		</div>
+	</div>
+	<div class="row">
         <div class="col">
 			{% _image "delacroix_3.jpg", "poster for a delacroix exhibition" %}
 			</br></br>
@@ -58,34 +61,21 @@ eleventyNavigation:
 			</br></br>
 			{% _image "delacroix_8.jpg", "poster for a delacroix exhibition" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-	</div>
-		<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-        	<div class="col">
-				<figcaption>The introduction of the call and response, front and back on coasters, featured at local bars and restaurant partners.</figcaption> 
-			</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col">
+		<figcaption>Further variations of the main design expressed in display posters.</figcaption>
+		</div>
+	</div>
+	<div class="row">
         <div class="col">
 			{% _image "delacroix_1.jpg", "poster for a delacroix exhibition" %}
 		</div>
 		<div class="col">
 			{% _image "delacroix_2.jpg", "poster for a delacroix exhibition" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
-		<figcaption>Further variations of the main design expressed in display posters.</figcaption>
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-	</div>
-	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
 	    <div class="col">
 				{% _image "delacroix_19.jpg", "poster for a delacroix exhibition" %}
 				</br></br>
@@ -107,14 +97,5 @@ eleventyNavigation:
 				</br></br>
 				{% _image "delacroix_18.jpg", "poster for a delacroix exhibition" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-	</div>
-	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-	    <div class="col">
-			<figcaption>Further variations in poster format.</figcaption> 
-			</div>
-		</div>
-	    <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

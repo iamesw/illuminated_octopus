@@ -1,5 +1,5 @@
 module.exports = {
-	"title": "illuminated octopus",
+	"title": "Illuminated Octopus",
 	"url": "https://illuminatedoctopus.com",
 	"language": "en",
 	"description": "digital presence of james williams",

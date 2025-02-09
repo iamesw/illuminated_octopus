@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<hr>
 			<figcaption>2009 | Birmingham Museum of Art</figcaption>
@@ -33,32 +33,23 @@ eleventyNavigation:
 			<hr>
 		    	<p>Birmingham artist Amy Pleasant created a site-specific drawing installation that wrapped the four walls of the Museum’s Lower Sculpture Garden. This was the artist’s first wall drawing created without her signature figurative imagery. The work was a “cloudscape” executed in black exterior paint directly on the walls of this “outdoor gallery.” <em>Suspended</em> evolved from a series of drawings the artist made while viewing the clouds from a plane window.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+        <div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">
 			{% _image "pleasant_1.jpg", "exhibition gallery guide cover" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-	    <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
             {% _image "pleasant_0.jpg", "book layout" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
-	</div>
-	<div class="row">
-	    <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "pleasant_2.jpg", "book layout" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
 		<div class="col"></div>
-        <div class="col-1 col-1-md col-1-lg"></div>
         <div class="col">
 		    {% _image "pleasant_3.jpg", "book layout" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

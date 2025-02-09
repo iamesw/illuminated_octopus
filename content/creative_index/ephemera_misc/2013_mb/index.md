@@ -24,34 +24,29 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2013 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
 			<figcaption>Fonts in Use:</br>Melbourne</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "mb_2013_2.jpg", "event invitation" %}
 			<figcaption>Save the Date</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col"></div>
-		<div class="col-1 col-4-md col-6-lg">
+		<div class="col-8 col-8-md col-8-lg">
 			{% _image "mb_2013_3.jpg", "event invitation" %}
 		<figcaption>Invitation</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2013_4.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

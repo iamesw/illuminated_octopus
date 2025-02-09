@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Still Life
+title: Look of Love
 description: Poster for portraiture exhibition
 date: 2011-02-07
 tags:
@@ -26,27 +26,23 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2011 | Birmingham Museum of Art</figcaption>
 			<figcaption>Campaign</figcaption>
 			<figcaption>Fonts in Use:</br>Archer and Didot</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+		<div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "lol_ad_1.jpg", "poster for an exhibition of eye miniatures" %}
 			<figcaption>Poster</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col"><figcaption>Handbills</figcaption></div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "lol_ad_4.jpg", "poster for an exhibition of eye miniatures" %}
 			</br></br>
@@ -62,10 +58,8 @@ eleventyNavigation:
 			</br></br>
 			{% _image "lol_ad_9.jpg", "poster for an exhibition of eye miniatures" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "lol_ad_10.jpg", "poster for an exhibition of eye miniatures" %}
 		</div>
@@ -75,6 +69,6 @@ eleventyNavigation:
 		<div class="col">
 			{% _image "lol_ad_14.jpg", "poster for an exhibition of eye miniatures" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>
+

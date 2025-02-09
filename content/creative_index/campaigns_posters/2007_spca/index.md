@@ -24,19 +24,18 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2007 | SPCA of Bakersfield</figcaption>
-			<figcaption>Poster</figcaption>
+			<figcaption>Posters</figcaption>
 			<figcaption>Fonts in Use:</br>DIN</figcaption>
             <hr>
+			<div class="spacer-sm"></div>
+			{% _image "spca_2.jpg", "Poster for the society for the prevention of cruelty to animals" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+		<div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 		{% _image "spca_1.jpg", "Poster for the society for the prevention of cruelty to animals" %}
-		</br></br>
-		{% _image "spca_2.jpg", "Poster for the society for the prevention of cruelty to animals" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

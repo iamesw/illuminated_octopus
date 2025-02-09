@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2003 | The Arc of Jefferson County</figcaption>
             <figcaption>Annual Report</br>16 pages / softcover / saddlestich</figcaption>
@@ -33,29 +33,20 @@ eleventyNavigation:
 			<hr>
 		    	<p>Annual report for the local branch of a non-profit that advocates for and with individuals with intellectual and developmental disabilities.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-			{%_image "arc_1.jpg", "book cover" %}
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">{%_image "arc_1.jpg", "book cover" %}</div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-            {%_image "arc_3.jpg", "book cover" %}
-        </br></br>
-            {%_image "arc_4.jpg", "book layout" %}
-        </br></br>
-            {%_image "arc_5.jpg", "book layout" %}
-        </br></br>
-            {%_image "arc_6.jpg", "book layout" %}
-        </br></br>
-            {%_image "arc_7.jpg", "book layout" %}
-        </br></br>
-            {%_image "arc_8.jpg", "book layout" %}
-        </br></br>
-            {%_image "arc_9.jpg", "book layout" %}
-        </div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col">{%_image "arc_3.jpg", "book layout" %}</div>
+        <div class="col">{%_image "arc_4.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "arc_5.jpg", "book layout" %}</div>
+        <div class="col">{%_image "arc_6.jpg", "book layout" %}</div>
+        <div class="col">{%_image "arc_7.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "arc_8.jpg", "book layout" %}</div>
+        <div class="col">{%_image "arc_9.jpg", "book layout" %}</div>
   	</div>
 </div>

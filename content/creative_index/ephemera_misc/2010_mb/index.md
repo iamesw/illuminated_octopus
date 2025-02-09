@@ -24,53 +24,50 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2010 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
 			<figcaption>Fonts in Use:</br>Archer and Neutra Sans</figcaption>
             <hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col-8 col-8-md col-8-lg">
 			{% _image "mb_2010_2.jpg", "event invitation" %}
 			<figcaption>Save the Date</figcaption>
 			{% _image "mb_2010_3.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2010_1.jpg", "event invitation" %}
 		<figcaption>Z-fold Invitation</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 		</div>
 		<div class="col">
 			<figcaption>Event Program</figcaption>
 			{% _image "mb_2010_4.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "mb_2010_5.jpg", "event invitation" %}
-			</br></br>
-			{% _image "mb_2010_6.jpg", "event invitation" %}
-			</br></br>
-			{% _image "mb_2010_8.jpg", "event invitation" %}
-			</br></br>
-			{% _image "mb_2010_10.jpg", "event invitation" %}
-			</br></br>
-			{% _image "mb_2010_11.jpg", "event invitation" %}
-			</br></br>
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col">
+			{% _image "mb_2010_6.jpg", "event invitation" %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			{% _image "mb_2010_8.jpg", "event invitation" %}
+		</div>
+		<div class="col">
+			{% _image "mb_2010_10.jpg", "event invitation" %}
+		</div>
+		<div class="col">
+			{% _image "mb_2010_11.jpg", "event invitation" %}
+		</div>
 	</div>
 </div>

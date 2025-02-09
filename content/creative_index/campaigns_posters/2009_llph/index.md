@@ -26,38 +26,33 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2009 | Birmingham Museum of Art</figcaption>
 			<figcaption>Campaign</figcaption>
 			<figcaption>Fonts in Use:</br>Knockout</figcaption>
-            <hr>
+            <figcaption>Related Projects:</br>» <a href=/creative_index/ephemera_misc/2009_llph>Invitation</a></br>» Logotype</figcaption>  
+			<hr>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "llph_18.jpg", "poster for an exhibition of american art" %}
 			<figcaption>Poster</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			<figcaption>Billboards</figcaption>
     	</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "llph_3.jpg", "billboard for an exhibition of american art" %}
 			</br></br>
 			{% _image "llph_21.jpg", "billboard for an exhibition of american art" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 		<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "llph_11.jpg", "billboard for an exhibition of american art" %}
 			</br></br>
@@ -68,17 +63,13 @@ eleventyNavigation:
 			</br></br>
 			{% _image "llph_14.jpg", "billboard for an exhibition of american art" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-    	<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			<figcaption>Print Ads</figcaption>
     	</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "llph_6.jpg", "ad for an exhibition of american art" %}
 		</div>
@@ -91,10 +82,8 @@ eleventyNavigation:
 		<div class="col">
 			{% _image "llph_20.jpg", "ad for an exhibition of american art" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "llph_8.jpg", "ad for an exhibition of american art" %}
 		</div>
@@ -103,6 +92,5 @@ eleventyNavigation:
 		</div>
 		<div class="col">
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 </div>

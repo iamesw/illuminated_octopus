@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2012 | Maus Contemporary | beta pictoris gallery</figcaption>
             <figcaption>Exhibition Catalog / Artist Monograph</br>153 pages / hardcover</figcaption>
@@ -32,35 +32,25 @@ eleventyNavigation:
 			<hr>
 		    	<p>Exhibition and career retrospective catalog for contemporary artist Matt Wycoff.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-			{% _image "variations_1.jpg", "book cover" %}
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">{% _image "variations_1.jpg", "book cover" %}</div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-            {% _image "variations_2.jpg", "book cover" %}
-        </br></br>
-            {% _image "variations_3.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_4.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_5.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_6.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_7.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_8.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_9.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_10.jpg", "book layout" %}
-        </br></br>
-            {% _image "variations_11.jpg", "book layout" %}
-        </div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col">{% _image "variations_2.jpg", "book cover" %}</div>
+        <div class="col">{% _image "variations_3.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{% _image "variations_4.jpg", "book layout" %}</div>
+        <div class="col">{% _image "variations_5.jpg", "book layout" %}</div>
+        <div class="col">{% _image "variations_6.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{% _image "variations_7.jpg", "book layout" %}</div>
+        <div class="col">{% _image "variations_8.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{% _image "variations_9.jpg", "book layout" %}</div>
+        <div class="col">{% _image "variations_10.jpg", "book layout" %}</div>
+        <div class="col">{% _image "variations_11.jpg", "book layout" %}</div>
   	</div>
 </div>

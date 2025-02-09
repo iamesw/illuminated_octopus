@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2007 | Tina Newton Gallery</figcaption>
             <figcaption>Gallery Catalog</br>16 pages / softcover / saddlestich</figcaption>
@@ -33,41 +33,26 @@ eleventyNavigation:
 			<hr>
 		    	<p>Small catalog for a group gallery show. The catalog was designed to work being read from front to back or back to front, including page numbering for both directions.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-			{%_image "dream_1.jpg", "book cover" %}
-		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">{%_image "dream_1.jpg", "book cover" %}</div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-            {%_image "dream_2.jpg", "book cover" %}
-        </br></br>
-            {%_image "dream_3.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_4.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_5.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_6.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_7.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_8.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_9.jpg", "book layout" %}
-        </br></br>
-            {%_image "dream_10.jpg", "book layout" %}
-        </div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-  	</div>
+		<div class="col">{%_image "dream_2.jpg", "book cover" %}</div>
+        <div class="col">{%_image "dream_3.jpg", "book layout" %}</div>
+        <div class="col">{%_image "dream_4.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "dream_5.jpg", "book layout" %}</div>
+        <div class="col">{%_image "dream_6.jpg", "book layout" %}</div>
+	</div>
+	<div class="row">
+        <div class="col">{%_image "dream_7.jpg", "book layout" %}</div>
+        <div class="col">{%_image "dream_8.jpg", "book layout" %}</div>
+        <div class="col">{%_image "dream_9.jpg", "book layout" %}</div>
+	</div>
     <div class="row">
+		<div class="col-4 col-4-md col-4-lg"></div>
 		<div class="col"></div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
-            {%_image "dream_11.jpg", "book layout" %}
-      	</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col-6 col-6-md col-6-lg">{%_image "dream_11.jpg", "book layout" %}</div>
     </div>
 </div>

@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2017–2018 | Birmingham Museum of Art</figcaption>
             <figcaption>Posters | Marketing Materials</figcaption>
@@ -32,24 +32,22 @@ eleventyNavigation:
 			<hr>
 			<p>The Birmingham Museum of Art launched its largest exhibition of contemporary art in 2017 with <em>Third Space</em>. Drawing from the permanent collection, the exhibition focused on the connections between Birmingham, Alabama, the American South, and the Global South. A series of programs was a vital component of the exhibition, featuring artist lectures and performances. These are marketing materials for those programs.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+        <div class="col"></div>
+		<div class="col-6 col-6-md col-6-lg">
 				{% _image "third_space_chapters_1.jpg", "Poster featuring a standing figure with raised first" %}
 				<figcaption>Chapter One featured Tommie Smith, famous for his protest at the 1968 Olympics in conversation with artist Glenn Kaino, who created a sculpture composed of 200 bronze casts of Smith's raised arm. The poster features the iconic form of Smith raising his fist in protest, a gold tone image of Kaino's sculpture behind him.</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-        <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+		<div class="col"></div>
+		<div class="col-5 col-5-md col-5-lg">
 		    {% _image "third_space_chapters_2.jpg", "Poster featuring a person's face covered in teeth whitening strips, hand held against 
 			the side of his face" %}
 			<figcaption>Conceptual Wilmer Wilson IV gave a lecture for the third Chapter. The arresting image of Wilson with teeth-whitening strips pasted to his face does the heavy lifting, the text arranged in an off kilter, though heavily gridded, fashion to compliment the unease of the image.</figcaption>
 		</div>
-    	<div class="col">
+    	<div class="col-5 col-5-md col-5-lg">
     		{% _image "third_space_chapters_3.jpg", "Poster featuring a seated man smiling" %}
 			<figcaption>An improvisational performance by Lonnie Holley ended the series of Chapters. Holley is something of a local celebrity, hence highlighting his name prominently, along with the friendly and inviting image of him.</figcaption>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
   	</div>
 </div>

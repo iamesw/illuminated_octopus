@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
   <div class="row"></div>
 	<div class="row">
-		<div class="col">
+	    <div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2015 | Birmingham Museum of Art</figcaption>
             <figcaption>Gallery Guide</br>12 pages / selfcover</figcaption>
@@ -34,25 +34,28 @@ eleventyNavigation:
 				<p>Because <em>Vodoun</em> was outlawed, and conversion to Catholicism was forced, practitioners often identified symbols and Saints from the Catholic religion to represent spirits from their hidden faith. Other European traditions in Haiti also became sources of symbolism in <em>Vodoun</em>, including imagery from the Society of Freemasons.</P>
 				<p>In both African and European traditions, flags and banners are symbols of identity, power, and authority. When used in <em>Vodoun</em> ceremonies, flags represent the loa spirits and are carried into sacred spaces of worship, and even worn over the shoulders. The shimmering banners evoke the great mystery of the <em>loas</em>, who helped Haitians survive unimaginable oppression and obstacles.</p>
 		</div>
-	    <div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col">
+	    <div class="col"></div>
+	    <div class="col-6 col-6-md col-6-lg">
 			{% _image "haitian_1.jpg", "cover with illustrated cover" %}
 		</div>
-		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-	    <div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
             {% _image "haitian_2.jpg", "book layout" %}
-        </br></br>
+		</div>
+		<div class="col">
             {% _image "haitian_3.jpg", "book layout" %}
-        </br></br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
             {% _image "haitian_4.jpg", "book layout" %}
-        </br></br>
+		</div>
+		<div class="col">
             {% _image "haitian_5.jpg", "book layout" %}
-        </br></br>
+		</div>
+		<div class="col">
             {% _image "haitian_6.jpg", "book layout" %}
         </div>
-		<div class="col-1 col-1-md col-1-lg"></div>
   	</div>
 </div>

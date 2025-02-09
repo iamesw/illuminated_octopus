@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container">
 	<div class="row"></div>
 	<div class="row">
-		<div class="col">
+		<div class="col-4 col-4-md col-4-lg">
 			<h1>{{ title }}</h1>
 			<figcaption>2016 | Birmingham Museum of Art</figcaption>
 			<figcaption>Invitation</figcaption>
@@ -32,14 +32,12 @@ eleventyNavigation:
             <hr>
 			<p>A national election year. A collectors' support group dinner with a vote on what to accession. Naturally, an invitation based on ballots.</p>
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col">
+        <div class="col"></div>
+        <div class="col-6 col-6-md col-6-lg">
 			{% _image "cc_2016_5.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
 		<div class="col">
 			{% _image "cc_2016_3.jpg", "event invitation" %}
 			<figcaption>Invitation | Based on the infamous Florida butterfly ballot used in the 2000 U.S. presidential election.</figcaption>
@@ -47,12 +45,10 @@ eleventyNavigation:
         <div class="col">
 			{% _image "cc_2016_2.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col-2 col-2-md col-2-lg"></div>
 	</div>
 	<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
-		<div class="col"></div>
+		<div class="col-4 col-4-md col-4-lg"></div>
 		<div class="col">
 			{% _image "cc_2016_5.jpg", "event invitation" %}
 			<figcaption>Response Card</figcaption>
@@ -60,10 +56,8 @@ eleventyNavigation:
         <div class="col">
 			{% _image "cc_2016_6.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
 	</div>
-		<div class="row">
-		<div class="col-1 col-1-md col-1-lg"></div>
+	<div class="row">
 		<div class="col">
 			{% _image "cc_2016_1.jpg", "event invitation" %}
 			<figcaption>Envelopes</figcaption>
@@ -71,7 +65,6 @@ eleventyNavigation:
         <div class="col">
 			{% _image "cc_2016_4.jpg", "event invitation" %}
 		</div>
-        <div class="col-1 col-1-md col-1-lg"></div>
-        <div class="col-1 col-1-md col-1-lg"></div>
+        <div class="col-2 col-2-md col-2-lg"></div>
 	</div>
 </div>
