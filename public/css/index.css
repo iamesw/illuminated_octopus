@@ -1,22 +1,22 @@
 @font-face {	
-	font-family: JetBrainsMono;
-	src: url(../fonts/JetBrainsMono[wght].ttf);
+	font-family: PlexMono;
+	src: url(/fonts/IBMPlexMono-Regular.ttf);
 }
 
 @font-face {
-	font-family: Public Sans;
-	src: url(../fonts/PublicSans[wght].ttf);
+	font-family: PublicSans;
+	src: url(/fonts/PublicSans[wght].ttf);
 }
 
 @font-face {
 	font-family: Barlow;
-	src: url(../fonts/Barlow-Medium.ttf) format('truetype');
+	src: url(/fonts/Barlow-Medium.ttf);
 }
 
 /* Defaults */
 :root {
-	--font-family: Public Sans, -apple-system, system-ui, sans-serif;
-	--font-family-monospace: JetBrainsMono, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family: PublicSans, -apple-system, system-ui, sans-serif;
+	--font-family-monospace: PlexMono, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--font-family-special: Barlow, -apple-system, system-ui, sans-serif;
 }
 
@@ -27,7 +27,8 @@
 	--color-gray-80: #505050;
 	--color-gray-90: #333;
 
-	--background-color:#333;
+	--background-color:rgb(20, 20, 20);
+	--transparent-bg:rgb(20, 20, 20, 0.75);
 
 	--text-color: var(--color-gray-20);
 	--text-color-link: #e0e0e0;
@@ -58,6 +59,10 @@ html {
 }
 body {
 	margin: 0;
+	position: relative;
+/*	min-height: 100vh;
+    display: flex;
+    flex-direction: column;*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -142,6 +147,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1em;
 }
 
+special {
+	font-family: var(--font-family-special);
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1;
+}
+
 p:last-child { 
 	margin-bottom: 0;
 }
@@ -187,24 +200,14 @@ right {
 }
 
 footer {
-	border-top: 1px dashed var(--color-gray-80);
-	padding: 1rem;
+/*	border-top: 1px dashed var(--color-gray-80);*/
+	margin-top: auto;
+	padding: 2rem 1rem 1rem 1rem;
 	font-family: var(--font-family-monospace);
 	font-size: .75rem;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.links-nextprev {
-	font-family: var(--font-family-monospace);
-	font-size: .75rem;
-	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-	display: inline-flex;
-	flex-wrap: wrap;
-}
-.links-nextprev li{
-	padding: 0 1rem 0 0;
-}
+
 table {
 	margin: 1em 0;
 }
@@ -238,21 +241,56 @@ code {
 
 /* Header */
 
+/*header{top:0;}
+.breadcrumb {top:3rem;}
+*/
+
+.logo {
+	float:right;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem 1.25rem 1.25rem 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top:0; 
+	z-index: 3;
+	margin-left: -3rem;
+	}
+	
+.logo img {
+	height: 1.25rem;
+	display: block;
+	border-style: none;
+	overflow: hidden;
+	}
+		
 header, .breadcrumb {
+	align-items: center;
+	z-index: 2;
 	padding: 1rem;
+	margin-right: -5rem;
+	min-height: 4rem;
 	display: flex;
 	gap: 1em 1em;
 	flex-wrap: wrap;
-/*	justify-content: space-between;*/
-	border-bottom: 1px dashed var(--color-gray-80);
+	justify-content: space-between;;
+/*	border-bottom: 1px dashed var(--color-gray-80);*/
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top:0;
+	top: 0;
 	width: 100%;
 	background-color: var(--background-color);
-	z-index: 2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+/*	float: left;*/
 }
+
+header{
+	float: left;
+}
+
+.breadcrumb {
+/*	border-bottom: 1px dashed var(--color-gray-80);*/
+	}
 
 .home-link {
 	font-family: var(--font-family-monospace);
@@ -263,6 +301,7 @@ header, .breadcrumb {
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
+
  header:after, .breadcrumb:after {
 	content: "";
 	display: table;
@@ -270,19 +309,42 @@ header, .breadcrumb {
 }
 
 /* Nav */
-.nav {
+.nav, .links-nextprev {
 /*	display: flex;*/
 	padding: 0;
 	margin: 0;
+	margin-top: .5em;
 	list-style: none;
 	font-family: var(--font-family-monospace);
 	font-size: .75em;
+/*	min-height: 2.25em;*/
+/*	background-color: var(--background-color);*/
 }
+
+.links-nextprev {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-top: .5em;
+}
+
+.links-nextprev li{
+	padding: 0 1rem 0 0;
+	margin-left: .5rem;
+}
+.links-nextprev li	a {
+	text-decoration: none;
+	}
+
+header .nav {
+	width:100%
+	}
+
+.breadcrumb .nav, .links-nextprev {width: 75%;}
+
 .nav-item {
 /*	font-family: var(--font-family-monospace);
 	font-size: .75em;*/
 	display: inline-block;
-	margin-left: 1em;
 	margin-left: .5em;
 }
 .nav-item a[href]:not(:hover) {
@@ -348,8 +410,7 @@ hr {
 /* Posts list */
 .postlist {
 	list-style: none;
-	padding: 0;
-	/*padding-left: 1.5rem;*/
+	padding: 0 1.5rem 0 1.5rem;
 }
 .postlist-item {
 	display: flex;
@@ -368,25 +429,27 @@ hr {
 }
 .postlist-date,
 .postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	font-size: 0.75em;	
 }
-.postlist-date {
-	word-spacing: -0.5px;
-}
+
 .postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: 1rem;
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
 /*	padding-left: .25em;*/
 	padding-right: .5em;
-	text-underline-position: from-font;
-	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
+	text-decoration: none;
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
+
+.postlist-description {
+	margin-left: 1em;
+	padding-bottom: 1.5em;
+	font-family: var(--font-family-monospace);
+	font-size: .75em;
+	}
 
 /* Tags */
 .post-tag {
@@ -401,18 +464,7 @@ hr {
 }
 
 /* Tags list */
-.post-metadata {
-	font-family: var(--font-family-monospace);
-	font-size: .75rem;
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.post-breadcrumb {
+.post-metadata, .post-breadcrumb {
 	font-family: var(--font-family-monospace);
 	font-size: .75rem;
 	display: inline-flex;
@@ -429,7 +481,8 @@ hr {
 
 time {
 	font-family: var(--font-family-monospace);
-}
+	font-size: .75rem;
+	}
 
 /* Direct Links / Markdown Headers */
 .header-anchor {

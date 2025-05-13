@@ -15,19 +15,20 @@
 		<a href="#skip" class="visually-hidden" id="top">Skip to main content</a>
 		<header>
 			<nav>
-			<h2 class="visually-hidden">Top level navigation menu</h2>
-			  <ul class="nav">
-				<li class="nav-item"><a href="/" >{{ metadata.title }}</a></li> is the Design Studio of James Williams   /   </li>
-			    <li class="nav-item"><a href="/creative_index">Index</a>   /   </li>
-    			<li class="nav-item"><a href="/about">About</a></li> 
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+			<ul class="nav">
+			    <li class="nav-item"><a href="/creative_index">Index</a>   |  </li>
+    			<li class="nav-item"><a href="/blog">Journal</a>   |  </li> 
+				<li class="nav-item"><a href="/about">Profile</a></li> 
 			  </div>
 			</nav>
 		</header>
+		<div class="logo"><a href="/">{% _image "III_O_logo_web.png", "alt" %}</a></div>
 		<main id="skip">
 			{{ content | safe }}
 		</main>
-		<footer>
-			©2024 <a href="/about/">James Williams</a>     /     <a href="#top">Return to Top</a>
-		</footer>
 	</body>
+		<footer>
+			©2024 <a href="/about/">James Williams</a>     |     <a href="#top">Return to Top</a>
+		</footer>
 </html>

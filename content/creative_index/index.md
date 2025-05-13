@@ -8,14 +8,12 @@ eleventyNavigation:
 <div class="breadcrumb">
   <h3 class="visually-hidden">In Page Navigation</h3>
   <ul class="nav">
-    <li class="nav-item"><a href="#books_editorial_brochures">Books + Editorial + Brochures</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#campaigns_posters">Campaigns + Posters</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#ephemera_misc">Ephemera + Misc</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#identity_branding">Identity + Branding</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#interactive_exhibitions">Interactive + Exhibitions</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#photography">Photography</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="#prints_paintings">Prints + Paintings</a></li>&nbsp;&nbsp;/ 
-    <li class="nav-item"><a href="/williams_highlights.pdf" target="_blank">Highlights PDF »</a></li>&nbsp;&nbsp;/</ul>
+    <li class="nav-item"><a href="#books_editorial_brochures">Books + Editorial + Brochures</a></li>&nbsp;&nbsp;| 
+    <li class="nav-item"><a href="#campaigns_posters">Campaigns + Posters</a></li>&nbsp;&nbsp;| 
+    <li class="nav-item"><a href="#ephemera_misc">Ephemera + Misc</a></li>&nbsp;&nbsp;| 
+    <li class="nav-item"><a href="#identity_branding">Identity + Branding</a></li>&nbsp;&nbsp;| 
+    <li class="nav-item"><a href="#interactive_exhibitions">Interactive + Exhibitions</a></li>&nbsp;&nbsp;| 
+    <li class="nav-item"><a href="#photography">Photography + Prints + Paintings</a></li>
   </div>
 </div>
 <div class="container">
@@ -48,9 +46,5 @@ eleventyNavigation:
     <right><figcaption>Montevideo, Uruguay | 2023</figcaption></right>
   <div class="row"><h2 class="visually-hidden"></h2></div>
     {%include "partials/photography.njk" %}
-  <div class="row"><div class="spacer"></div></div>
-  <div class="full-width"  id="prints_paintings">{% _image "ad/homepage_end_one_way.jpg", "black and white abstract painting" %}</div>
-    <right><figcaption>End One Way | Painting | 2020</figcaption></right>
-  <div class="row"><h2 class="visually-hidden"></h2></div>
     {%include "partials/prints_paintings.njk" %}
 </div>
