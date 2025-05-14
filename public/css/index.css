@@ -258,7 +258,8 @@ code {
 	}
 	
 .logo img {
-	height: 1.25rem;
+	max-height: 1.25rem;
+	width: auto;
 	display: block;
 	border-style: none;
 	overflow: hidden;

@@ -7,9 +7,10 @@ eleventyNavigation:
 
 <div class="container">
   <div class="full-width">
-    <video autoplay muted loop playsinline width="100%">
+    <video autoplay loop muted playsinline width="100%">
       <source src="/img/io_makers.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/img/io_makers.webm" onerror="fallback(parentNode)">
+      <img src="/img/io_makers.jpg">
     </video>
   </div>
   <div class="row"><div class="spacer"></div></div>
