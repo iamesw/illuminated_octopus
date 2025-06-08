@@ -1,6 +1,6 @@
 @font-face {	
-	font-family: PlexMono;
-	src: url(/fonts/IBMPlexMono-Regular.ttf);
+	font-family: JetBrainsMono;
+	src: url(/fonts/JetBrainsMono[wght].ttf);
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 /* Defaults */
 :root {
 	--font-family: PublicSans, -apple-system, system-ui, sans-serif;
-	--font-family-monospace: PlexMono, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-monospace: JetBrainsMono, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--font-family-special: Barlow, -apple-system, system-ui, sans-serif;
 }
 
@@ -32,7 +32,7 @@
 
 	--text-color: var(--color-gray-20);
 	--text-color-link: #e0e0e0;
-	--text-color-link-active: rgb(255, 115, 0);
+	--text-color-link-active: #ff7300;
 	--text-color-link-visited: #e0e0e0;
 
 	--syntax-tab-size: 2;
@@ -143,16 +143,28 @@ body {
 .spacer-lg {height: auto;} @media screen and (min-width: 600px) {.spacer-lg {height: 18rem;}} @media screen and (min-width: 1200px) {.spacer-lg {height: 24rem;}}
 /* end spacer */
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
 	font-size: 1em;
 }
 
-special {
+h1	{
 	font-family: var(--font-family-special);
-	font-size: 2rem;
-	text-transform: uppercase;
+	font-size: 3rem;
 	font-weight: bold;
 	line-height: 1;
+	margin-top: 0;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+	letter-spacing: .125rem;
+}
+
+h2{
+	font-family: var(--font-family);
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;	
 }
 
 p:last-child { 
@@ -197,6 +209,12 @@ figcaption {
 
 right {
 	text-align: right;
+}
+
+special	{
+	font-family: var(--font-family-special);
+	text-transform: uppercase;
+	letter-spacing: .125rem;
 }
 
 footer {
