@@ -43,6 +43,10 @@ eleventyNavigation:
       <figcaption>James: the most common first name in the United States over the last 100 years.</figcaption>
       <figcaption>Williams: the third most common surname in the United States.</figcaption>
       <figcaption>As such, one needs a more interesting and memorable studio name.</figcaption>
+      <div class="spacer-md"></div>
+      <figcaption><a href="/blog">Journal »</a></figcaption>
+      <hr>
+      <figcaption>A blog? Works in progress. Behind the scenes. Slowly rebuilding old running blog. Not sure yet, but it will get built out eventually</figcaption>
     </div>
   </div>
 </div>

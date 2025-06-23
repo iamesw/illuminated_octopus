@@ -1,26 +1,19 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: 
+  key: home
   order: 1
 ---
 
 <div class="container">
   <div class="full-width">
-    <video autoplay loop muted playsinline width="100%">
-      <source src="/img/io_makers.mp4" type="video/mp4">
-      <source src="/img/io_makers.webm" onerror="fallback(parentNode)">
-      <img src="/img/io_makers.jpg">
-    </video>
+      {% res_image "ad/homepage_io_mobile.jpg", "ad/homepage_io.jpg", "person walking in front of the Oodli Central library, Helsinki" %}
   </div>
   <div class="row"><div class="spacer"></div></div>
   <div class="row"> 
       <div class="col-12 col-8-md col-8-lg">
         <div class="spacer"></div>
         <right><h1>Illuminated Octopus</h1></right>
-        <div class="spacer"></div>
-        {% _image "ad/homepage_cargo_catalog_mockup.jpg", "black and white image of an open book sitting on a concrete block in harsh light and shadows" %}
-        <right><figcaption>The Original Makers | Exhibition Catalog</figcaption></right>
       </div>
       <div class="col-12 col-3-md col-2-lg">
         <figcaption><strong>il·lu·mi·na·ted</strong> [<em>adj</em>]:</br></br>intellectually or spiritually enlightened</figcaption>
@@ -28,14 +21,53 @@ eleventyNavigation:
         <figcaption><strong>il·lu·mi·na·ted oc·to·pus</strong> [<em>n</em>]:</br></br>a many skilled studio crafting enlightened book and editorial design</figcaption>
       </div>
       <div class="col-12 col-12-md col-1-lg"></div>
+  </div>
+  <div class="row"> 
+      <div class="col-12 col-8-md col-8-lg">
+        <div class="spacer"></div>
+        <a href="/case_studies/#cargo">{% res_image "case/cargo_4x5.jpg", "case/cargo_16x9.jpg", "black and white image of an open book sitting on a concrete block in harsh light and shadows" %}</a>
+        <right>
+        <figcaption>Case Study 01</figcaption>
+        <h2><special><a href="/case_studies/#cargo">The Original</br>Makers</a></special></h2>
+        </right>
+      </div>
+      <div class="col-12 col-3-md col-2-lg"></div>
+      <div class="col-12 col-12-md col-1-lg"></div>
   </div>  
   <div class="row">
     <div class="col"></div>
     <div class="col"></div>
     <div class="col-12 col-8-md col-8-lg">
-      <div class="spacer"></div>
-      {% _image "ad/homepage_clare_leighton_mockup.jpg", "black and white image of an open book sitting on the floor surrounded by clay pots harsh light and shadows" %}
-      <figcaption>An Epic of Earth and Water | Exhibition Catalog</figcaption>
+      <div class="spacer-sm"></div>
+      <a href="/case_studies/#clare">{% res_image "case/clare_4x5.jpg", "case/clare_16x9.jpg", "black and white image of an open book sitting on the floor surrounded by clay pots harsh light and shadows" %}</a>
+      <figcaption>Case Study 02</figcaption>
+      <h2><special><a href="/case_studies/#clare">An Epic</br>of Earth</br>and Water</a><special></h2>
     </div>
   </div>
+    <div class="row">
+    <div class="col">
+      <div class="spacer-sm"></div>
+      <a href="/case_studies/#etched">{% _image "case/etched_4x5.jpg", "black and whtie image of the cover of a book" %}</a>
+      <right>
+      <figcaption>Case Study 03</figcaption>
+      <h2><special><a href="/case_studies/#etched">Etched in</br>Collective</br>History</a></special></h2>
+      </right>
+    </div>
+    <div class="col">
+      <div class="spacer-lg"></div>
+      <a href="/case_studies/#lol">{% _image "case/lol_4x5.jpg", "black and whtie image of the cover of a book" %}</a>
+      <right>
+      <figcaption>Case Study 04</figcaption>
+      <h2><special><a href="/case_studies/#lol">The Look</br>of Love</a></special></h2>
+      </right>
+    </div>
+    <div class="col">
+      <div class="spacer-sm"></div>
+      <div class="spacer-lg"></div>
+      <a href="/case_studies/#vietnam">{% _image "case/vietnam_4x5.jpg", "black and whtie image of the cover of a book" %}</a>
+      <right>
+      <figcaption>Case Study 05</figcaption>
+      <h2><special><a href="/case_studies/#vietnam">Dragons</br>and Lotus</br>Blossoms</a></special></h2>
+      </right>
+    </div>
 </div>

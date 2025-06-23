@@ -1,0 +1,150 @@
+---
+layout: layouts/base.njk
+title: Books + Editorial
+description: More book design
+date: 2025-06-22
+tags:
+  - graphic design
+  - catalog
+  - book
+  - editorial
+eleventyNavigation:
+  key: Books + Editorial
+  parent: Case Studies
+---
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("Books + Editorial") %}
+<div class="breadcrumb">
+    <h3 class="visually-hidden">Breadcrumb</h3>
+    <ul class="nav">
+            {%- for entry in navPages %}
+        <li class="nav-item"{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}> » <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+            {%- endfor %}
+        <li class="nav-item"><active-breadcrumb>» {{ title }}</active-breadcrumb></li>
+    </ul>
+</div>
+<div class="container">
+  <div class="row"></div>
+      <div class="full-width">{% _image "book_group_16x9.jpg", "grid of books" %}</div>
+      <div class="spacer"></div>
+    <div class="row"></div>
+    <div class="row">
+    <div class="col-4 col-4-md col-2-lg">
+    <h2><special>Books + Editorial</a></special></h2>
+    <figcaption>Book and editorial design.</figcaption>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2023 | Magazine</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2023_medium>{% _image "medium_25.jpg", "image of a publication cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2022 | Editorial</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2022_seasons>{% _image "seasons_01.jpg", "image of a publication cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2021 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2021_clare_leighton>{% _image "cl_00.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2019 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2019_blackout>{% _image "blackout_1.jpg", "image of a gallery guide cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2018 | Magazine</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2018_medium>{% _image "medium_1.jpg", "" %}</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2018 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2018_cargo_catalog>{% _image "cc_1.jpg", "" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2018 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2018_coe>{% _image "coe_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2017 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2017_afterlife>{% _image "afterlife_1.jpg", "image of a gallery guide cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2016 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2016_ikat>{% _image "ikat_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2016 | Zine</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2016_shift>{% _image "shift_3.jpg", "image of a gallery guide cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2016 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2016_collins>{% _image "collins_1.jpg", "image of a gallery guide cover" %}</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2015 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2015_haitian>{% _image "haitian_1.jpg", "image of a gallery guide cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2015 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2015_fleming>{% _image "fleming_1.jpg", "image of a brochure cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2014 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2014_puxley>{% _image "puxley_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2013 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2013_etched>{% _image "etched_1.jpg", "" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2013 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2013_bhm>{% _image "bhm_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2012 | Annual Report</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2012_annual_report>{% _image "AR_2012_1.jpg", "image of a book cover" %}</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2012 | Monograph</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2012_variations>{% _image "variations_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2012 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2012_lol>{% _image "lol_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2012 | Monograph</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2012_space>{% _image "space_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2012 | Book</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2012_cc20>{% _image "cc20_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2011 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2011_vietnam>{% _image "vietnam_1.jpg", "" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2010 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2010_spiral>{% _image "spiral_1.jpg", "image of a brochure cover" %}</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2010 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2010_katsinas>{% _image "katsinas_1.jpg", "image of a brochure cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2010 | Book</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2010_handbook>{% _image "handbook_1.jpg", "" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2009 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2009_pleasant>{% _image "pleasant_1.jpg", "image of a brochure cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2008 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2008_louden>{% _image "louden_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2008 | Exhibition Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2008_leo>{% _image "leo_1.jpg", "image of a book cover" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2008 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2008_windham>{% _image "windham_1.jpg", "image of a brochure cover" %}</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2007 | Gallery Guide</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2007_wallceilingfloor>{% _image "wallceilingfloor_1.jpg", "image of a brochure cover" %}</a>
+    </div>    
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2006 | Catalog</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2006_dream>{% _image "dream_1.jpg", "" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"><figcaption>2003 | Annual Report</figcaption>
+        <a href=/creative_index/books_editorial_brochures/2003_arc>{% _image "arc_1.jpg", "cover of a brochure" %}</a>
+    </div>
+    <div class="col-4 col-4-md col-2-lg"></div>
+    <div class="col-4 col-4-md col-2-lg"></div>
+    <div class="col-4 col-4-md col-2-lg"></div>
+</div>
+</div>

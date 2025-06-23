@@ -165,6 +165,7 @@ h2{
 	line-height: 1;
 	margin-top: 0;
 	margin-bottom: 0;	
+	padding-top: .5em;
 }
 
 p:last-child { 
@@ -215,7 +216,12 @@ special	{
 	font-family: var(--font-family-special);
 	text-transform: uppercase;
 	letter-spacing: .125rem;
+	
 }
+
+h2 a {
+	text-decoration: none;
+	}
 
 footer {
 /*	border-top: 1px dashed var(--color-gray-80);*/
@@ -321,7 +327,7 @@ header{
 	text-decoration: none;
 }
 
- header:after, .breadcrumb:after {
+header:after, .breadcrumb:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -355,10 +361,10 @@ header{
 	}
 
 header .nav {
-	width:100%
+	width:100%%;
 	}
 
-.breadcrumb .nav, .links-nextprev {width: 75%;}
+.breadcrumb .nav, .links-nextprev {max-width: 75%;}
 
 .nav-item {
 /*	font-family: var(--font-family-monospace);

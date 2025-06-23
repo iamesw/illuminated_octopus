@@ -33,6 +33,7 @@ eleventyNavigation:
 			<hr>
 		    	<p>In commemoration of Alabama’s Bicentennial, the Birmingham Museum of Art presented <em>The Original Makers: Folk Art from the Cargo Collection</em>, an exhibition featuring more than 160 works of folk art.</p>
                 <p>As a new generation of Southern makers explores the joy of creating, this exhibition celebrated the artists who have lived in our midst, inspired by their life experiences, their faith, their communities, and the landscape around them. Documenting many Southern ways of life, in all their variety, <em>The Original Makers</em> explored themes that have inspired self-taught and craft artists over many decades, including scenes of daily life and work, nature, faith and religion, patriotism, and music.</p>
+            <figcaption><a href=/case_studies>Book Design Case Studies »</a></figcaption>
 		</div>
         <div class="col"></div>
         <div class="col-6 col-6-md col-6-lg">{% _image "cc_1.jpg", "book cover with folk art as background image" %}</div>
