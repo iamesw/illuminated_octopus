@@ -1,14 +1,23 @@
 ---
 layout: layouts/base.njk
-
+title: Journal
+eleventyNavigation:
+  key: Journal
 ---
-
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("Journal") %}
 <div class="container">
 <div class="row"></div>
 <div class="row">
-    <div class="col-12 col-12-md col-12-lg"></div>
-</div>
-<div class="row"><div class="spacer-sm"></div>
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+	<div class="col-4 col-4-md col-4-lg">
+        <div class="spacer"></div>
+        <hr>
+        <figcaption>A journal? Works in progress. Behind the scenes. Slowly rebuilding an old blog that tried to relate the lessons learned running to the field of design? Not sure yet, but part of it will be the attempt to document a journaling practice.</figcaption>
+        <hr>
+    </div>
+    <div class="col-1 col-1-md col-1-lg"></div>
+    <div class="col-6 col-6-md col-6-lg"><div class="spacer"></div>
+        {% set postslist = collections.posts %}
+        {% include "postslist.njk" %}
+    </div>
+    <div class="col-1 col-1-md col-1-lg"></div>
 </div>

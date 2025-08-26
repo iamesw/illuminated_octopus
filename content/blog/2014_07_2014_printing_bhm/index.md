@@ -1,13 +1,13 @@
 ---
 title: Printing BHM
-description: Photo essay of printing BHM utility cover prints
+description: Photo essay of printing BHM utility cover prints.
 date: 2014-02-18
 tags:
   - printing
   - utility covers
   - bhm
 ---
-<p>Printing utility cover prints. Each 5 x 7 inches, with an additional embossed naming plate. Shot with Fujifilm X100.</p>
+Printing utility cover prints. Each 5 x 7 inches, with an additional embossed naming plate. Shot with Fujifilm X100.
 </br>
 {% image "printing_bhm_1.jpg", "" %}</br>
 {% image "printing_bhm_2.jpg", "" %}</br>

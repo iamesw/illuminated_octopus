@@ -14,21 +14,17 @@
 	<body>
 		<a href="#skip" class="visually-hidden" id="top">Skip to main content</a>
 		<header>
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-			<ul class="nav">
-			    <li class="nav-item"><a href="/case_studies">Case Studies</a>   |  </li>
-				<li class="nav-item"><a href="/creative_index">Index</a>   |  </li>
-				<li class="nav-item"><a href="/about">Profile</a></li> 
-			  </div>
-			</nav>
+				<ul class="nav"><h2 class="visually-hidden">Top level navigation menu</h2>
+			    	<li class="nav-item"><a href="/case_studies">Case Studies</a>   |  </li>
+					<li class="nav-item"><a href="/creative_index">Index</a>   |  </li>
+					<li class="nav-item"><a href="/blog">Journal</a>   |  </li>
+					<li class="nav-item"><a href="/about">Profile</a></li> 
+			  	</div>
 		</header>
 		<div class="logo"><a href="/">{% _image "III_O_logo_web.png", "alt" %}</a></div>
 		<main id="skip">
 			{{ content | safe }}
 		</main>
 	</body>
-		<footer>
-			©2024 <a href="/about/">James Williams</a>     |     <a href="#top">Return to Top</a>
-		</footer>
+	<footer>©2024 <a href="/about/">James Williams</a>     |     <a href="mailto:james@illuminatedoctopus.com">Contact</a>     |     <a href="#top">Return to Top</a></footer>
 </html>

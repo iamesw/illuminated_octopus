@@ -7,18 +7,16 @@ layout: layouts/base.njk
 {% include "public/css/prism-diff.css" %}
 {%- endcss %}
 
+{% set navPages = collections.all | eleventyNavigationBreadcrumb("Journal") %}
 <div class="breadcrumb">
-	{%- if collections.posts %}
-	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-	{%- set nextPost = collections.posts | getNextCollectionItem %}
-	{%- if nextPost or previousPost %}
-	<ul class="links-nextprev">
-	{%- if previousPost %}<li> « <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>   |  {% endif %}
-	<li><active-breadcrumb>{{ title }}</active-breadcrumb></li>   |  
-	{%- if nextPost %}<li><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> » </li>{% endif %}
+    <h3 class="visually-hidden">Breadcrumb</h3>
+	<ul class="nav">
+            {%- for entry in navPages %}
+		<li class="nav-item"{% if entry.url == page.url %} class="active-breadcrumb"{% endif %}> » <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  	    	{%- endfor %}
+	    <li class="nav-item"><a href=/blog> » Journal</a></li>
+		<li class="nav-item"><active-breadcrumb>» {{ title }}</active-breadcrumb></li>
 	</ul>
-	{%- endif %}
-	{%- endif %}
 </div>
 <div class="container">
 	<div class="row"></div>
@@ -27,12 +25,33 @@ layout: layouts/base.njk
 			<h1>{{ title }}</h1>
 			<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 			</br></br>
+			<figcaption>{{ description }}</figcaption>
+		</div>
+		<div class="col-1 col-1-md col-1-lg"></div>
+		<div class="col-6 col-6-md col-6-lg">
+			<hr>
+			{{ content | safe }}
 			<hr>
 		</div>
-		<div class="col"></div>
-		<div class="col-6 col-6-md col-6-lg">
-			{{ content | safe }}
-		</div>
-		<div class="col"></div>
+		<div class="col-1 col-1-md col-1-lg"></div>
 	</div>
+</div>
+<div class="row">
+	<div class="col-5 col-5-md col-5-lg"></div>
+	<div class="col-6 col-6-md col-6-lg">
+		<div class="breadcrumb">
+			{%- if collections.posts %}
+			{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+			{%- set nextPost = collections.posts | getNextCollectionItem %}
+			{%- if nextPost or previousPost %}
+		<ul class="links-nextprev">
+			{%- if previousPost %}<li> « <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>   |  {% endif %}
+			<li><active-breadcrumb>{{ title }}</active-breadcrumb></li>   |  
+			{%- if nextPost %}<li><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> » </li>{% endif %}
+		</ul>
+			{%- endif %}
+			{%- endif %}
+		</div>
+	</div>
+	<div class="col-1 col-1-md col-1-lg"></div>
 </div>

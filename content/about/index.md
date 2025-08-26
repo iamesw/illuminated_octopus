@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: James Williams
+  key: Profile
   order: 3
 ---
 
@@ -46,7 +46,7 @@ eleventyNavigation:
       <div class="spacer-md"></div>
       <figcaption><a href="/blog">Journal »</a></figcaption>
       <hr>
-      <figcaption>A blog? Works in progress. Behind the scenes. Slowly rebuilding old running blog. Not sure yet, but it will get built out eventually</figcaption>
+      <figcaption>Works in progress. Behind the scenes. Other random thoughts?</figcaption>
     </div>
   </div>
 </div>
