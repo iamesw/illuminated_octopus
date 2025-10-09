@@ -28,7 +28,7 @@ eleventyNavigation:
         <div class="col-12 col-8-md col-4-lg">
             <h1>{{ title }}</h1>
             <figcaption>Ongoing Series</br>iPhone</figcaption>
-            <figcaption><a href=#PDX>PDX</a>  |  <a href=#BOM>BOM</a>  |  <a href=#VAP>VAP</a>  |  <a href=#SCL>SCL</a>  |  <a href=#SLA>SLA</a>  |  <a href=#MDZ>MDZ</a>  |  <a href=#BAE>BAE</a>  |  <a href=#MVD>MVD</a>  |  <a href=#DET>DET</a>  |  <a href=#TLL>TLL</a>  |  <a href=#KUO>KUO</a>  |  <a href=#SVL>SVL</a>  |  <a href=#HEL>HEL</a>  |  <a href=#GVA>GVA</a>  |  <a href=#AVN>AVN - LYS</a>  |  <a href=#NCE>NCE</a>  |  <a href=#BER>BER</a>  |  <a href=#MUC>MUC</a>  |  <a href=#DRS>DRS</a>  |  <a href=#CGN>CGN</a>  |  <a href=#FRA>FRA</a>  |  <a href=#MAD>MAD</a>  |  <a href=#ZAZ>ZAZ</a>  |  <a href=#BCA>BCA</a>  |  <a href=#MEX>MEX</a>  |  <a href=#PRG>PRG</a>  |  <a href=#ORD>ORD</a>  |  <a href=#SDF>SDF</a>  |  <a href=#BHM>BHM</a></figcaption>
+            <figcaption><a href=#MCI>MCI</a>  |  <a href=#PDX>PDX</a>  |  <a href=#BOM>BOM</a>  |  <a href=#VAP>VAP</a>  |  <a href=#SCL>SCL</a>  |  <a href=#SLA>SLA</a>  |  <a href=#MDZ>MDZ</a>  |  <a href=#BAE>BAE</a>  |  <a href=#MVD>MVD</a>  |  <a href=#DET>DET</a>  |  <a href=#TLL>TLL</a>  |  <a href=#KUO>KUO</a>  |  <a href=#SVL>SVL</a>  |  <a href=#HEL>HEL</a>  |  <a href=#GVA>GVA</a>  |  <a href=#AVN>AVN - LYS</a>  |  <a href=#NCE>NCE</a>  |  <a href=#BER>BER</a>  |  <a href=#MUC>MUC</a>  |  <a href=#DRS>DRS</a>  |  <a href=#CGN>CGN</a>  |  <a href=#FRA>FRA</a>  |  <a href=#MAD>MAD</a>  |  <a href=#ZAZ>ZAZ</a>  |  <a href=#BCA>BCA</a>  |  <a href=#MEX>MEX</a>  |  <a href=#PRG>PRG</a>  |  <a href=#ORD>ORD</a>  |  <a href=#SDF>SDF</a>  |  <a href=#BHM>BHM</a></figcaption>
             <p>Ongoing series. Taken while walking new places, old places. A meditation on man-made objects and their location.</p>
         </div>
         <div class="col"></div>
@@ -36,6 +36,9 @@ eleventyNavigation:
         </div>
         <div class="col-1 col-1-md col-1-lg"></div>
     </div>
+    <hr>
+    <div class="row" id="MCI"><div class="spacer"></div></div>
+    {% include "partials/utility/mci.njk" %}
     <hr>
     <div class="row" id="PDX"><div class="spacer"></div></div>
     {% include "partials/utility/pdx.njk" %}
