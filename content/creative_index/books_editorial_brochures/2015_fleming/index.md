@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Frank Fleming – Between Fantasy and Reality
+title: "Frank Fleming: Between Fantasy and Reality"
 description: Gallery Guide for exhibition of sculpture by Frank Fleming
 date: 2015-02-27
 tags:

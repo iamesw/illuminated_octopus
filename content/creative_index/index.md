@@ -13,7 +13,7 @@ eleventyNavigation:
     <li class="nav-item"><a href="#ephemera_misc">Ephemera + Misc</a></li>&nbsp;&nbsp;| 
     <li class="nav-item"><a href="#identity_branding">Identity + Branding</a></li>&nbsp;&nbsp;| 
     <li class="nav-item"><a href="#interactive_exhibitions">Interactive + Exhibitions</a></li>&nbsp;&nbsp;| 
-    <li class="nav-item"><a href="#photography">Photography + Prints + Paintings</a></li>
+    <li class="nav-item"><a href="#photo_print_paint">Photography + Prints + Paintings</a></li>
   </div>
 </div>
 <div class="container">
@@ -44,6 +44,6 @@ eleventyNavigation:
   <div class="row"><div class="spacer"></div></div>
   <div class="full-width">{% res_image "ad/homepage-mvd_mobile.jpg", "ad/homepage-mvd_header.jpg", "black and white image buildings photographed in montevideo, uruguay" %}</div>
     <right><figcaption>Montevideo, Uruguay | 2023</figcaption></right>
-  <div class="row" id="photography"><h2 class="visually-hidden">Photography + Prints + Paintings</h2></div>
-    {%include "partials/photography.njk" %}
+  <div class="row" id="photo_print_paint"><h2 class="visually-hidden">Photography + Prints + Paintings</h2></div>
+    {%include "partials/photo_print_paint.njk" %}
 </div>

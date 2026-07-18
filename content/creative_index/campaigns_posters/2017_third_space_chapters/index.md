@@ -43,7 +43,7 @@ eleventyNavigation:
 		<div class="col-5 col-5-md col-5-lg">
 		    {% _image "third_space_chapters_2.jpg", "Poster featuring a person's face covered in teeth whitening strips, hand held against 
 			the side of his face" %}
-			<figcaption>Conceptual Wilmer Wilson IV gave a lecture for the third Chapter. The arresting image of Wilson with teeth-whitening strips pasted to his face does the heavy lifting, the text arranged in an off kilter, though heavily gridded, fashion to compliment the unease of the image.</figcaption>
+			<figcaption>Conceptual artist Wilmer Wilson IV gave a lecture for the third Chapter. The arresting image of Wilson with teeth-whitening strips pasted to his face does the heavy lifting, the text arranged in an off kilter, though heavily gridded, fashion to compliment the unease of the image.</figcaption>
 		</div>
     	<div class="col-5 col-5-md col-5-lg">
     		{% _image "third_space_chapters_3.jpg", "Poster featuring a seated man smiling" %}

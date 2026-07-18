@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Frank Fleming - Between Fantasy and Reality
+title: "Frank Fleming: Between Fantasy and Reality"
 description: Opening invitation for a frank fleming exhibition
 date: 2015-02-27
 tags:
@@ -47,6 +47,23 @@ eleventyNavigation:
 		</div>
 		<div class="col">
 			{% _image "fleming_02.jpg", "event invitation" %}
+		</div>
+	</div>
+	<div class="row">
+        <div class="col">
+			{% _image "fleming_01.jpg", "event invitation" %}
+		</div>
+		<div class="col">
+			{% _image "fleming_02.jpg", "event invitation" %}
+		</div>
+        <div class="col">
+			{% _image "fleming_01.jpg", "event invitation" %}
+		</div>
+		<div class="col">
+			{% _image "fleming_02.jpg", "event invitation" %}
+		</div>
+        <div class="col">
+			{% _image "fleming_01.jpg", "event invitation" %}
 		</div>
 	</div>
 </div>
